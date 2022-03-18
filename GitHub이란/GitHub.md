@@ -6,8 +6,6 @@
 <br>
 
 # 1 Version control = Git
-<details><summary> </summary>
-<p>
   
   ## - Version control은 필요합니다. 
   
@@ -27,54 +25,34 @@
    ![image](https://user-images.githubusercontent.com/40287191/120320139-cbc33280-c31c-11eb-8ad7-6298fb2129fa.png)
 
   ### - Git의 탄생 👶
-  <details><summary> </summary>
-  <p>
+  
   
    ![image](https://user-images.githubusercontent.com/40287191/120289434-3fa11300-c2fc-11eb-8db0-42658d6b062b.png)
-  </p>
-  </details> 
-  
  
-         
-</p>
-</details>
-
 <br>
 <br>
 
 # 2 소프트웨어 개발 + 협업 
-<details><summary> </summary>
-<p>
   
   ## - 소프트웨어의 개발은 가장 큰 팀스포츠 이자, 협업의 산물 입니다. 
   ![image](https://user-images.githubusercontent.com/40287191/120286337-18951200-c2f9-11eb-8535-16681aafe678.png)
   
   ## - 버젼 관리는 자연스러운 협업의 출발점 입니다. 🧑‍🤝‍🧑 
   
-</p>
-</details>
 
 <br>
 <br>
 
 # 3 Git = GitHub ?
-<details><summary> </summary>
-<p> 
-  
+
   ### - GitHub은 Git 기반의 개발 협업 플랫폼 입니다. 
 ![image](https://user-images.githubusercontent.com/40287191/120290596-74fa3080-c2fd-11eb-8a59-a58a275ba164.png)
-
-
-  </p>
-</details>
 
 <br>
 <br>
 
 # 4 오픈 소스 = GitHub.com
-<details><summary> </summary>
-<p> 
-  
+ 
   ### - GitHub은 전세계 오픈소스 프로젝트가 함께 협력하고 개발하는 곳입니다. 
 ![image](https://user-images.githubusercontent.com/40287191/120288730-82162000-c2fb-11eb-8b46-80b6aeb53e1c.png)
 
@@ -84,16 +62,11 @@
 
  ![image](https://user-images.githubusercontent.com/40287191/120320262-f1e8d280-c31c-11eb-9c0f-4f0ca8c6d915.png)
 
-</p>
-</details>
 <br>
 <br>
 
 # 5 오픈소스 🤝 이너소스(Innersource) 
 
-<details><summary> </summary>
-<p>  
-  
   ### - DevOps 만으로는 충분치 않습니다. 진정 팀간의 벽을 허무는 것이 필요합니다. 
   ![image](https://user-images.githubusercontent.com/40287191/120304886-25226600-c30b-11eb-9619-2586423dd030.png)
    
@@ -118,15 +91,12 @@
    - [Issues 및 Pull Request](https://github.com/microsoft/vcpkg/issues/18170)
    - [Discussions](https://github.com/microsoft/vcpkg/discussions)
    - [Project](https://github.com/orgs/microsoft/projects)
-  
-</p>
-</details>
+
 <br>
 <br>
 
 # 6 GitHub.com = GitHub Enterprise
-<details><summary> </summary>
-<p> 
+
 
   ### - 글로벌 GitHub.com의 서비스 플랫폼의 안정성, 확장성, 성능이 그대로 엔터프라이즈에 적용됩니다. 
   
@@ -161,15 +131,11 @@
    - Any Cloud Infra : Azure, AWS, GCP// VMware, KVM, Xen
    - 1개 VM에 ~수만의 사용자 💪
   
-  
-</p>
-</details>
+
 <br>
 <br>
 
 # 7 GitHub Enterprise :octocat:
-<details><summary> </summary>
-<p> 
   
   ### - GitHub.com과 GitHub Enterprise는 전세계 개발자들의 오픈소스와, 엔터프라이즈 개발자들의 Home 입니다. 
   ![image](https://user-images.githubusercontent.com/40287191/146722382-53d8b8ff-5c33-4992-86e3-a43cffb57c7e.png)
@@ -210,16 +176,11 @@
   ### - GitHub Codespace
  ![image](https://user-images.githubusercontent.com/40287191/120346118-08e7ee80-c336-11eb-94d0-bc821c8baf22.png)
   
-
- 
-</p>
-</details>
 <br>
 <br>
 
 # 8 Trial
-<details><summary> </summary>
-<p> 
+
   
   ### - 두가지 방법 : GitHub Enterprise Cloud, 또는 GitHub Enterprise Server
   
@@ -232,8 +193,6 @@
    - Admin 하실 분이 [Trial request](https://enterprise.github.com/trial) 
    - 이메일로 라이센스, GHES 설치하고 라이센스 적용
   
-  
-</p>
-</details>
+
 
 
