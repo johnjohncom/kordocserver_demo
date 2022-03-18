@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 remote_theme: just-the-docs/just-the-docs
+=======
+theme: jekyll-theme-cayman
+>>>>>>> 679d5b1a6e51cafcc16cd7ebeff10e3dba7694dd
