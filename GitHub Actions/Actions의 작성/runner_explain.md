@@ -2,7 +2,7 @@
 layout: default
 title: Action 러너
 parent: GitHub Actions란
-nav_order: 4
+nav_order: 2
 ---
 
 

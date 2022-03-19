@@ -2,6 +2,7 @@
 layout: default
 title: workflow yaml syntax
 parent: workflow파일
+grand_parent: GitHub Actions란
 nav_order: 2
 ---
 

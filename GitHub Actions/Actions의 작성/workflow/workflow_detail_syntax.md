@@ -2,6 +2,7 @@
 layout: default
 title: workflow 파일 상세 구조
 parent: workflow파일
+grand_parent: GitHub Actions란
 nav_order: 4
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 title: workflow 인증
 parent: workflow파일
+grand_parent: GitHub Actions란
 nav_order: 8
 ---
 

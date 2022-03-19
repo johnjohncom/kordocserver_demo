@@ -2,6 +2,7 @@
 layout: default
 title: CodeQL 쿼리들
 parent: CodeQL이란
+grand_parent: GitHub Advanced Security란
 nav_order: 1
 ---
 

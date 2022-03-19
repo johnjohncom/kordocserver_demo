@@ -2,6 +2,7 @@
 layout: default
 title: Context와 Expression syntax
 parent: workflow파일
+grand_parent: GitHub Actions란
 nav_order: 9
 ---
 

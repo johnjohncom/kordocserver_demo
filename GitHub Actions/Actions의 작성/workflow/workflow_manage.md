@@ -2,6 +2,7 @@
 layout: default
 title: workflow 실행관리
 parent: workflow파일
+grand_parent: GitHub Actions란
 nav_order: 6
 ---
 
