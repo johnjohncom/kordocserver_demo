@@ -1,3 +1,11 @@
+---
+layout: default
+title: CodeQL 쿼리들
+parent: CodeQL이란
+nav_order: 1
+---
+
+
 # Code Scanning queries
 
 ## Code Scanning의 쿼리들은 크게 3가지의 사전 정의된 쿼리 suites를 가지고 있습니다.  

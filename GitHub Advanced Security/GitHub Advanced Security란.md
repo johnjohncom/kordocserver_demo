@@ -1,3 +1,11 @@
+---
+layout: default
+title: GitHub Advanced Security란
+nav_order: 4
+has_children: true
+---
+
+
 # getting-started GHAS   
 - GHAS는 GitHub의 보안 기능인 Advanced Security 기능입니다. 
 - GitHub 플랫폼에 내제된 코드 정적분석(SAST)기능과 Secret Scanning(토큰, Certificate등을 자동 검출)해 주는 기능입니다. 
