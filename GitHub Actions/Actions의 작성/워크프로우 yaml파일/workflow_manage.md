@@ -1,3 +1,12 @@
+---
+layout: default
+title: workflow 실행관리
+parent: workflow파일
+nav_order: 6
+has_children: false
+---
+
+
 # [Workflow 실행관리](https://docs.github.com/en/enterprise-server@3.1/actions/managing-workflow-runs)
 
 1. [Visualization graph](https://docs.github.com/en/enterprise-server@3.1/actions/managing-workflow-runs/using-the-visualization-graph) : 저장소 Actions 탭에서, 왼편의 사이드바에서 보고자 할 워크플로우 클릭 > 오른쪽의 워크플로우 run 리스트 중 선택

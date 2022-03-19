@@ -1,3 +1,13 @@
+---
+layout: default
+title: workflow 인증
+parent: workflow파일
+nav_order: 8
+has_children: false
+---
+
+
+
 # [Workflow 내에서의 인증](https://docs.github.com/en/enterprise-server@3.1/actions/reference/authentication-in-a-workflow)
 
 1. GitHub은 자동으로 `GITHUB_TOKEN`을 생성합니다. 이것은 워크플로우내에서 인증을 위해 편리하게 사용될 수 있습니다. 각 job이 시작되기 전, GitHub은 job을 위한 `GITHUB_TOKEN`을 가져오고, job실행이 완료되면 만료됩니다.
