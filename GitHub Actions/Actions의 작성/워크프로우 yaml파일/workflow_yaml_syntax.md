@@ -3,7 +3,6 @@ layout: default
 title: workflow yaml syntax
 parent: workflow파일
 nav_order: 2
-has_children: false
 ---
 
 

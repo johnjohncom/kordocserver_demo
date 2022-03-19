@@ -3,7 +3,6 @@ layout: default
 title: workflow 커맨드
 parent: workflow파일
 nav_order: 7
-has_children: false
 ---
 
 

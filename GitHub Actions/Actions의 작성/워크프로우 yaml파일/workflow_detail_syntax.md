@@ -3,7 +3,6 @@ layout: default
 title: workflow 파일 상세 구조
 parent: workflow파일
 nav_order: 4
-has_children: false
 ---
 
 

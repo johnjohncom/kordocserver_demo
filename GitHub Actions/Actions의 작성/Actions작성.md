@@ -2,7 +2,7 @@
 layout: default
 title: Actions작성
 parent: GitHub Actions란
-nav_order: 1
+nav_order: 2
 ---
 
 # howto_Actions ✨

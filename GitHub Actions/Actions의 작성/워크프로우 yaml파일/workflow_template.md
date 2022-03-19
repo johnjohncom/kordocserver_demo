@@ -3,7 +3,6 @@ layout: default
 title: workflow 파일 템플릿
 parent: workflow파일
 nav_order: 5
-has_children: false
 ---
 
 
