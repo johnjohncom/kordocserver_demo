@@ -10,7 +10,7 @@ nav_order: 9
 
 # [Context and expression syntax ](https://docs.github.com/en/enterprise-server@3.1/actions/reference/context-and-expression-syntax-for-github-actions)
 
- ### 1. Expression 
+### 1. Expression 
    - Workflow 파일들 내에서 각종 변수들을 선언하거나 context에 접근하는 등의 프로그램 처리를 할 수 있습니다. 
    - Expression은 글자그대로의 값이거나, context를 참조하거나 또는 함수등의 어떠한 조합도 가능합니다. Operator들을 활용해 이러한 조합을 할 수 있습니다. 
    - Workflow 파일 내에서 Expression은 보통 조건의 `if`키워드와 함께 사용되어 step이 실행되어야 할 지를 결정합니다. `if`가 `true`일 때 실행됩니다. 

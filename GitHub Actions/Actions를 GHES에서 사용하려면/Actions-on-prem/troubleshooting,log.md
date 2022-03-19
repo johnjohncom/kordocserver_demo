@@ -1,0 +1,114 @@
+---
+layout: default
+title: Troubleshooting, log파일
+parent: Actions의 GHES설정
+grand_parent: GitHub Actions란
+nav_order: 3
+---
+
+
+# Troublshooting, 로그파일
+
+## [GitHub Actions Troubleshooting](https://docs.github.com/en/enterprise-server@3.1/admin/github-actions/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise) 
+  
+   - GHES에 Self-signed certificate 사용시 Self-hosted 러너 등록 : GHES는 공인된 기관에서 서명된 공인 인증서의 사용이 강력히 권장되지만, self-signed 인증서를 사용할 때 방법이 설명되어 있습니다. 
+  
+   - GitHub Actions를 위한 HTTP proxy 설정 
+     - GHES 인스턴스에 HTTP Proxy server가 구성되어 있다면, **HTTP Exclusion list**에 `localhost`와 `127.0.0.1`을 설정해야 합니다. 
+     - 이 설정이 되어 있지 않으면 `Resource unexpectedly moved to https://<IP_ADDRESS>`와 유사한 에러가 발생됩니다. 
+  
+   - hostname 변경 후 러너가 연결되지 않음
+     - GHES의 호스트네임을 변경하였다면, self-hosted러너들은 이전의 호스트네임으로 연결되지 않을 것입니다. 
+     - 이 경우, self-hosted 러너의 구성을 업데이트 해야 하며, 
+       - self-hosted 러너의 디렉토리에서 `.runner` 와 `.credentials` 파일에서 모든 예전 호스트네임을 새로운 호스트네임으로 변경하고, self-hosted 러너 어플리케이션을 재시작
+       - 또는, GHES로 부터 Self-hosted 러너를 삭제하고 다시 추가
+  
+   - 메모리, CPU 용량 제약으로 GitHub Actions와 Job이 멈췄을 때
+     
+     - 과도한 Actions의 실행으로 메모리와 CPU 용량의 한도가 되었을 경우, (러너들이 idle한 것들이 있다해도) job들이 시작되지 않고 UI상에서 아무 변화가 없는 경우가 생길 수 있습니다. 
+     
+     - 1. [관리 콘솔에서 CPU와 메모리 사용량 확인](https://docs.github.com/en/enterprise-server@3.1/admin/enterprise-management/accessing-the-monitor-dashboard) 
+        
+       - Overall system health의 CPU와 메모리 사용량에 따라 [CPU, 메모리 용량 증설](https://docs.github.com/en/enterprise-server@3.1/admin/enterprise-management/increasing-cpu-or-memory-resources) 고려 
+     
+       <br>
+     
+     - 2. 만약, CPU, 메모리 사용량에 문제가 없다면, Nomad Job 섹션에서 "CPU Percent Value"와 "Memory Usage" 그래프 확인
+        - Actions와 관련된 아래 서비스들 확인
+          ```
+          mps_frontend
+          mps_backend
+          token_frontend
+          token_backend
+          actions_frontend
+          actions_backend
+          ```
+        - 이러한 서비스들 중, CPU 100%에 근접하거나 메모리가 최대치(2GB by default)에 근접하는 것이 있다면, 리소스 할당을 증가할 필요가 있습니다. 
+  
+       <br>
+  
+     - 3. 최대치에 근접한 서비스들에 대한 리소스 할당량 증가
+        - SSH 관리 콘솔로 GHES 인스턴스에 접속
+        - 아래 명령어로 추가 할당 가능한 리소스 확인
+           ```
+           nomad node status -self
+           ```
+        - 위 명령어로 나온 결과에서 "Allocated Resources" 섹션 부분 확인
+           ```
+           Allocated Resources
+           CPU              Memory          Disk
+           7740/49600 MHZ   23 GiB/32 GiB   4.4 GiB/7.9 GiB
+           ```
+        - `/etc/consul-templates/etc/nomad-jobs/actions` 디렉토리로 이동
+            - 이 디렉토리에는 Actions의 서비스에 관련된 아래 세가지 파일이 있습니다. 
+              ```
+              mps.hcl.ctmpl
+              token.hcl.ctmpl
+              actions.hcl.ctmpl
+              ```
+        - 이 중, 위에서 확인된, 증가가 필요한 파일을 열어 `resource` 그룹 부분을 확인하고, CPU, 메모리 부분을 증가시킵니다.  
+           ```
+             resources {
+             cpu = 512
+             memory = 2048
+             network {
+               port "http" { }
+               }
+             }
+           ```
+        - 파일을 저장하고 빠져 나옵니다. 
+        - `ghe-config-apply` 명령을 실행하여 변경된 내용을 적용합니다. 
+           - 이 명령 실행 중 `failed to run nomad job '/etc/nomad-jobs/<name>.hcl'`와 같은 에러가 발생한다면, CPU나 메모리가 가용한 범위보다 초과되어 할당된 것입니다. 
+  
+        - `ghe-actions-check`을 실행하여 Actions의 상태를 확인합니다. 
+  
+## [Self-hosted 러너 Troublshooting, 로그파일](https://docs.github.com/en/enterprise-server@3.1/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners)
+  
+   - [Self-hoste runner 상태 확인](https://docs.github.com/en/enterprise-server@3.1/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners#checking-the-status-of-a-self-hosted-runner) : idle, Action, Offline
+  
+   <img src="https://user-images.githubusercontent.com/40287191/125399198-37ec8800-e3eb-11eb-84cc-e9500a6278ba.png" width="700" height="150">
+
+   
+   - Self-hosted 러너 로그 파일 : 로그파일은 러너 디렉토리 내부에 별도의 `_diag` 디렉토리에 생성되며, 러너 어플리케이션이 시작될 때 마다 새로운 로그가 생성됩니다. 
+     - __Runner_파일 : Self-hosted 러너의 어플리케이션과 동작에 대한 로그파일 
+     - __Worker_파일 : 각 job의 실행에 대한 로그 파일 
+   
+   - 리눅스 기반의 self-hosted 러너에서 service로 application을 실행할 때는 `journalctl`을 사용해 실시간 활동을 모니터링할 수 있습니다. 
+  
+   - self-hosted 러너에서의 컨테이너
+     - 도커 설치 확인 : `sudo systemctl is-active docker.service`
+     - 만약 job이 아래와 같은 에러메세지로 실패 한다면, 도커 permission 확인 
+     
+     ```
+      dial unix /var/run/docker.sock: connect: permission denied
+     ```
+      - self-hosted 러너의 서비스 account가 도커 서비스를 사용할 수 있는 권한 확인
+    
+     ```
+     $ sudo systemctl show -p User actions.runner.octo-org-octo-repo.runner01.service
+     User=runner-user
+     ```
+  
+   - [Self-hosted 러너 삭제](https://docs.github.com/en/enterprise-server@3.1/actions/hosting-your-own-runners/removing-self-hosted-runners)
+
+<br/>

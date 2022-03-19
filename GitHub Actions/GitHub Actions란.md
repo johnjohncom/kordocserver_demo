@@ -18,16 +18,13 @@ has_children: true
 - Built-in secret store
 - Easy to write, easy to share
 
-# :octocat: GitHub Actions는 커뮤니티 🧑‍🤝‍🧑 기반으로 함께 성장합니다. 
+# GitHub Actions는 커뮤니티 🧑‍🤝‍🧑 기반으로 함께 성장합니다. 
 - GitHub Actions는 큰 특징 중 하나는 커뮤니티 기반이라는 점 입니다. Actions들이 커뮤니티에 공유되어 있고, 필요한 Actions들을 검색하여 찾아 선언만으로 쉽게 사용할 수 있습니다. 
 - 현재 [GitHub Marketplace에 8,000여개 이상의 Actions](https://github.com/marketplace?type=actions)들이 공유되어 있습니다. (Jun 2021 기준)
 
 
 # Example Actions
-  
-  <details><summary> </summary>
- <p>
-  
+
    - https://github.com/actions/starter-workflows
      - GitHub.com의 'actions' org에서 제공하는 starter 입니다.
      - ci, automation, code-scanning, icon등 다양한 분야의 예제 yml들이 폴더별로 정리되어 있습니다.
@@ -44,9 +41,3 @@ has_children: true
    - https://github.com/octodemo/advanced-security-java
      - Code Scanning Action의 Java 예시 입니다.
 
-  </p>
- </details>
-  
-<br/>
-<br/>
-<br/>

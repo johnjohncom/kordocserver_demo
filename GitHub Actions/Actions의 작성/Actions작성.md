@@ -12,9 +12,6 @@ nav_order: 4
 
 # 1. 🎯 Actions 작성, 사용, 공유 
 
-<details><summary> </summary>
-<p>
-  
   - Actions는 전체 Workflow의 각 단계를 구성하는 단위 요소이며, 각각 지정된 동작을 수행합니다. 
   
   - 저장소와 상호작용하는 action을 생성할 수 있고, 이것을 이용해 GitHub API와 다른 third-party API와 통합하는 action도 생성할 수 있습니다. 예를 들어, npm module을 publish하는 action, 긴급한 issue가 생성되었을 때 SMS alert를 보내는 action, 또는 상용할 준비가된 코드를 deploy하는 action등을 생성할 수 있습니다. 
@@ -110,19 +107,11 @@ nav_order: 4
     
     - ℹ️ 메타데이터 파일(`action.yml`, `action.yaml` ) [syntax 참조](https://docs.github.com/en/enterprise-server@3.1/actions/creating-actions/metadata-syntax-for-github-actions)
        - [Syntax 설명](actions_metadata.md)
-  
-  
-  
- </p>
- </details>
 
 <br/>
 
 # 2. Actions의 주요 features
 
-<details><summary> </summary>
-<p>
-  
   1. [Workflow내 Variable 사용](https://docs.github.com/en/enterprise-server@3.1/actions/learn-github-actions/essential-features-of-github-actions#using-variables-in-your-workflows)
     
      - GitHub Actions는 [기본 환경 변수](https://docs.github.com/en/enterprise-server@3.1/actions/reference/environment-variables#default-environment-variables)들을 가지고 있습니다.
@@ -310,18 +299,12 @@ nav_order: 4
        - 각 job은 하나의 environment를 참조할 수 있습니다. 
        - Job이 참조하는 environment가 러너로 보내지기 전에, 해당 environment에 대한 보호룰을 먼저 통과 해야만 합니다. 
        - ['Environment'](https://docs.github.com/en/enterprise-server@3.1/actions/reference/environments) 참조
-  
-</p>
-</details>
 
 <br/>
 
 
 # 3. Workflow 파일 ♾️
  
- <details><summary> </summary>
- <p>
-   
    1. ⚙️ [Workflow 파일 구조](workflow_file/workflow_file_component.md)
    
    2. [Workflow 파일 템플릿 : 조직내 워크플로우 공유](workflow_file/workflow_template.md) 📔
@@ -341,36 +324,23 @@ nav_order: 4
       - [Workflow Commands](workflow_file/workflow_commands.md)
 
       - [Context and expression syntax](workflow_file/context_and_expression_syntax.md)
-   
- 
- 
-   </p>
- </details>
 
 <br/>
  
 # 4. Docker 컨테이너 Actions 📦
- 
- <details><summary> </summary>
- <p>
-   
+  
    - Docker 컨테이너는 GitHub Actions의 코드와 실행환경을 함께 패키징합니다. 이것은 Actions의 사용자가 tool이나 의존성등을 걱정할 필요없이 더욱 일관되고 신뢰할 수 있는 action 실행 단위를 만들어 줍니다. 
    - Docker 컨테이너를 통해 OS의 특정 버젼, 의존성, tools와 코드를 사용할 수 있습니다. 특정한 환경 구성에서 동작해야만 하는 actions들은 Docker가 가장 적합한 방법입니다. 컨테이터를 생성하고 필요한 것들을 가져오는 데 소요되는 latency로 인해 JavaScript actions에 비해 느립니다.
    - Docker 컨테이너 actions는 Linux의 러너에서만 실행됩니다. Self-hosted 러너는 OS로 Linux, 그리고 Docker가 함께 설치되어 있어야 Docker 컨테이너 action을 실행할 수 있습니다. 
    
    - [Docker 컨테이너 actions 생성 방법 예시](https://docs.github.com/en/enterprise-server@3.1/actions/creating-actions/creating-a-docker-container-action)
    
- </p>
- </details>
- 
+
 <br/>
  
 
 # 5. JavaScript Actions 📜
-
- <details><summary> </summary>
- <p>
-   
+ 
    - JavaScript actions는 러너 머신에서 직접적으로 실행되고, action의 코드가 코드를 실행하는데 사용되는 환경으로 부터 분리됩니다. 
 
    - JavaScript actions를 이용하면 Docker 컨테이너 action보다 action의 코드를 더 단순화하고, 더 빠르게 실행할 수 있습니다. 
@@ -381,18 +351,11 @@ nav_order: 4
    
    - [JavaScript actions 생성 방법 예시](https://docs.github.com/en/enterprise-server@3.1/actions/creating-actions/creating-a-javascript-action)
    
-   
-   
- </p>
- </details>
- 
+
  <br/>
  
 
 # 6. Composite run steps Actions
-
- <details><summary> </summary>
- <p>
 
    - _Composite run steps_ actions는 하나의 action에 여러개의 steps들을 묶어 실행시킬 수 있습니다.
    
@@ -400,9 +363,6 @@ nav_order: 4
    
    - [Composite run step action 생성 방법 예시](https://docs.github.com/en/enterprise-server@3.1/actions/creating-actions/creating-a-composite-run-steps-action)
  
- </p>
- </details>
-
  <br/>
  
 

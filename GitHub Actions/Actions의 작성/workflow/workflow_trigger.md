@@ -14,10 +14,6 @@ nav_order: 3
 
 ### [1. Configuring workflow events](https://docs.github.com/en/enterprise-server@3.1/actions/reference/events-that-trigger-workflows#configuring-workflow-events)
 
- 
- <details><summary> </summary>
- <p>
-   
    
    ```
    on : push
@@ -45,21 +41,13 @@ nav_order: 3
       types: # This configuration does not affect the page_build event above
         - created
    ```
-   
- </p>
- </details>
-
+ 
 <br/>
  
 
 
 ### [2. Scheduled events](https://docs.github.com/en/enterprise-server@3.1/actions/reference/events-that-trigger-workflows#scheduled-events)
-
  
- <details><summary> </summary>
- <p>
-   
-   
    ```
     on:
      schedule:
@@ -67,19 +55,12 @@ nav_order: 3
        - cron:  '30 5,17 * * *'
    
    ```
-   
- </p>
- </details>
 
 <br/>
  
 
 ### [3. Manual events](https://docs.github.com/en/enterprise-server@3.1/actions/reference/events-that-trigger-workflows#manual-events)
-
  
- <details><summary> </summary>
- <p>
-   
    - `workflow_dispatch` : 수동으로 트리거
    
     
@@ -94,21 +75,13 @@ nav_order: 3
       repository_dispatch:
         types: [opened, deleted]
     
-  
-   
- </p>
- </details>
 
 <br/>
  
 
 
 ### [4. Webhook events](https://docs.github.com/en/enterprise-server@3.1/actions/reference/events-that-trigger-workflows#webhook-events)
-
  
- <details><summary> </summary>
- <p>
-   
    - GitHub Enterprise에서 발생하는 웹훅이벤트에 의해 트리거
    
    - 이벤트에 따라 여러가지 다양한 activity type이 있을 수 있습니다. 
@@ -176,10 +149,6 @@ nav_order: 3
           ...
    
     ```
-  
-  
- </p>
- </details>
 
 <br/>
  

@@ -18,9 +18,6 @@ nav_order: 2
 
 # 1. GitHub-hosted Runner vs. Self-hosted Runner
 
-<details><summary> </summary>
-<p>
- 
 <table>
     <thead>
         <tr>
@@ -57,16 +54,10 @@ nav_order: 2
 </table>
 
 
-  </p>
-  </details> 
-
 <br/>
   
 # 2. GitHub-hosted Runner 
- 
- <details><summary> </summary>
- <p>
- 
+
   1. GitHub-hosted Runner는 어디서 호스팅 되나요? ☁️
      - [Windows, Linux 러너](https://docs.github.com/en/enterprise-server@3.1/actions/using-github-hosted-runners/about-github-hosted-runners#cloud-hosts-for-github-hosted-runners) : Azure - `Standard_DS2_v2 virtual machine`
      - [Mac 러너](https://docs.github.com/en/enterprise-server@3.1/actions/using-github-hosted-runners/about-github-hosted-runners#cloud-hosts-for-github-hosted-runners) : GitHub 자체 macOS Cloud
@@ -131,18 +122,10 @@ nav_order: 2
         Job matrix | 256 job /워크플로우
         Workflow run queue | 저장소 당 10초에 최대 100개 워크 플로우
 
-  
- </p>
-  </details> 
-
-
 <br/>
   
 # 3. Self-hosted Runner
 
- <details><summary> </summary>
- <p>
-  
   1. Self-hosted Runner는 별도 과금이 없습니다. 
   
   2. Self-hosted Runner 어플리케이션
@@ -292,8 +275,3 @@ nav_order: 2
         Job queue time | 각 job은 최대 24시간 동안 큐에 대기
   
         * 표의 값들은 변경될 수 있습니다. 
-  
-  </p>
-  </details> 
-
-[🔙](https://github.com/exceeders/Actions_gettingStarted/blob/main/README.md#2-minio-nas-gateway)
