@@ -1,3 +1,11 @@
+---
+layout: default
+title: GitHub Advanced Security 트라이얼을 하려면
+parent: GitHub Advanced Security란
+nav_order: 4
+---
+
+
 ## Trial을 원하시면 🚀
 <details><summary>🔍</summary>
 <p>

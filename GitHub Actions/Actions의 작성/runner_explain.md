@@ -1,3 +1,12 @@
+---
+layout: default
+title: Action 러너
+parent: GitHub Actions란
+nav_order: 4
+---
+
+
+
 # Actions Runner
 - GitHub Actions의 Runner는 GitHub-hosted runner와 Self-hosted runner 두 가지가 있습니다. 
 - GitHub-hosted runner는 GitHub에서 Hosting하여 서비스 하는 러너입니다. 

@@ -1,3 +1,12 @@
+---
+layout: default
+title: GitHub Advanced Security라이센스
+parent: GitHub Advanced Security란
+nav_order: 3
+---
+
+
+
 ## License 🧮
 <details><summary>🔍</summary>
 <p>

@@ -1,3 +1,12 @@
+---
+layout: default
+title: Actions의 GHES설정
+parent: GitHub Actions란
+nav_order: 4
+has_children: true
+---
+
+
 # 🎯 GitHub Actions/Packages의 GHES 설정 및 사용 
 
 <br/>

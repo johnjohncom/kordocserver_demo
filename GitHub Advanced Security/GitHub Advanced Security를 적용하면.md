@@ -1,3 +1,11 @@
+---
+layout: default
+title: GitHub Advanced Security를 적용하면
+parent: GitHub Advanced Security란
+nav_order: 2
+---
+
+
 # GitHub은 소프트웨어 개발 전반에 보안을 강화합니다. 
 ![GitHub Advanced Security_Kor (3)](https://user-images.githubusercontent.com/40287191/119859442-5b996300-bf50-11eb-9241-e8efee5683ed.png)
 

@@ -1,3 +1,14 @@
+---
+layout: default
+title: CodeQL이란
+parent: GitHub Advanced Security란
+nav_order: 1
+has_children: true
+---
+
+
+
+
 ## CodQL - 가장 진보된 semantic code분석엔진
 ![GitHub Advanced Security_Kor (8)](https://user-images.githubusercontent.com/40287191/120106697-174cd380-c199-11eb-83bb-412daca84a49.png)
 

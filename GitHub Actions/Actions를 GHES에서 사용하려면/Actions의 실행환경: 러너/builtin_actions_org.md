@@ -1,3 +1,11 @@
+---
+layout: default
+title: GHES built-in Actions org
+parent: Actions의 GHES설정
+nav_order: 1
+---
+
+
 # GHES를 설치하면 'actions' 라는 조직이 자동으로 생성되어 있습니다.
 
  - GHES 인스턴스가 설치되면 자동으로 내부에 'actions'라는 Org가 생성되어 있고, 이 Org에 다양한 Action들이 포함되어 있습니다. 이 Actions들은 https://github.com/actions 에 있는 Actions들이 GitHub Enterprise 설치 버젼에 포함된 것입니다(해당버젼이 빌드될 때의 특정시점). 
@@ -24,4 +32,3 @@
     - 또는 [3.항](https://github.com/exceeders/Actions_GHES_gettingStarted#3-connect-%EC%84%A4%EC%A0%95-%EB%B0%8F-self-hosted-%EB%9F%AC%EB%84%88%EC%9D%98-%EC%9D%B8%ED%84%B0%EB%84%B7-%EC%97%B0%EA%B2%B0%EC%9D%B4-%EB%B6%88%EA%B0%80%ED%95%9C-%EA%B2%BD%EC%9A%B0-action-sync-tool-%EC%82%AC%EC%9A%A9)에서 설명되는 `Actions-sync tool`을 사용
  
 
-[🔙](https://github.com/exceeders/Actions_gettingStarted/blob/main/README.md#2-ghes%EC%97%90%EB%8A%94-%EA%B8%B0%EB%B3%B8-actions%EB%93%A4%EC%9D%B4-%EB%B9%8C%ED%8A%B8%EC%9D%B8%EC%9C%BC%EB%A1%9C-%ED%8F%AC%ED%95%A8%EB%90%98%EC%96%B4-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4)

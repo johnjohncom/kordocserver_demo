@@ -1,3 +1,11 @@
+---
+layout: default
+title: CodeQL 쿼리들
+parent: CodeQL이란
+nav_order: 2
+---
+
+
 ## Microsoft
 ![GitHub Advanced Security_Kor (13)](https://user-images.githubusercontent.com/40287191/120107685-eff80580-c19c-11eb-805e-6ecc62f63942.png)
 
