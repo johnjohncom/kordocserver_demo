@@ -1,3 +1,13 @@
+---
+layout: default
+title: Index
+nav_order: 1
+has_children: false
+---
+
+
+
+
 # GitHub의 다양한 설명 자료들 입니다. 
 - GitHub이란 무엇?
 - GitHub Enterprise란? 사용법, 설정, 트라이얼은 어떻게 신청하는지
