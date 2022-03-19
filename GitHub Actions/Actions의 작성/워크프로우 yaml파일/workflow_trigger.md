@@ -1,3 +1,13 @@
+---
+layout: default
+title: workflow trigger
+parent: workflow파일
+nav_order: 3
+has_children: false
+---
+
+
+
 # [Workflow Trigger Events](https://docs.github.com/en/enterprise-server@3.1/actions/reference/events-that-trigger-workflows)
 
 ### 워크플로우는 GitHub Enterprise의 특정 이벤트로, 스케쥴한 시간에, 수동으로, 또는 외부에서의 이벤트에 의해 트리거 될 수 있습니다. 

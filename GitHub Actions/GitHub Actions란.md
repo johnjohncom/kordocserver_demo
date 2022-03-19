@@ -1,4 +1,11 @@
-# GitHub Actions는,,
+---
+layout: default
+title: GitHub Actions란
+nav_order: 2
+has_children: true
+---
+
+# GitHub Actions란
 ![image](https://user-images.githubusercontent.com/40287191/121128830-fa826100-c866-11eb-80be-55502d6a757f.png)
 - GA on GHES version 3.0
 - GitHub플랫폼과 통합된 CI/CD환경

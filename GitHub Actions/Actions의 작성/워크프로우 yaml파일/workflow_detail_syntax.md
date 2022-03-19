@@ -1,3 +1,12 @@
+---
+layout: default
+title: workflow 파일 상세 구조
+parent: workflow파일
+nav_order: 4
+has_children: false
+---
+
+
 # [Workflow syntax](https://docs.github.com/en/enterprise-server@3.1/actions/reference/workflow-syntax-for-github-actions) 
 
 

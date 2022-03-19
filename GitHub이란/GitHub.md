@@ -1,3 +1,13 @@
+---
+layout: default
+title: GitHub이란
+nav_order: 1
+has_children: false
+---
+
+
+
+
 # Github은 전세계 개발자들의 Home 입니다. 
 
 <img src="https://user-images.githubusercontent.com/40287191/120283657-60ff0080-c2f6-11eb-967c-f2a046287607.png" />

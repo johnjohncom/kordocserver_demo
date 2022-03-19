@@ -1,3 +1,10 @@
+---
+layout: default
+title: Actions작성
+parent: GitHub Actions란
+nav_order: 1
+---
+
 # howto_Actions ✨
 <img src="https://user-images.githubusercontent.com/40287191/122417056-2ec2f380-cfc4-11eb-8147-b3e869b1fb4a.png" width="460" height="250">
 

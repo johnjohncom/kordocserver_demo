@@ -1,3 +1,12 @@
+---
+layout: default
+title: workflow 파일 템플릿
+parent: workflow파일
+nav_order: 5
+has_children: false
+---
+
+
 # [Workflow 파일 템플릿 : 조직내 워크플로우 공유](https://docs.github.com/en/enterprise-server@3.1/actions/learn-github-actions/sharing-workflows-with-your-organization)
 
 ### 1. 조직내 `.github` 이름을 가진 저장소를 생성하고 여기에 워크플로우를 조직내에서 공유할 수 있습니다. 

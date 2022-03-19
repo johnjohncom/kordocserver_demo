@@ -1,3 +1,11 @@
+---
+layout: default
+title: Action.yml파일
+parent: GitHub Actions란
+nav_order: 3
+---
+
+
 # [Metadata syntax](https://docs.github.com/en/enterprise-server@3.1/actions/creating-actions/metadata-syntax-for-github-actions)
 
 1. 메타 데이터 파일은 `action.yml` 또는 `action.yaml` 이라는 파일 이름을 가져야 합니다. 

@@ -1,3 +1,13 @@
+---
+layout: default
+title: Context와 Expression syntax
+parent: workflow파일
+nav_order: 9
+has_children: false
+---
+
+
+
 # [Context and expression syntax ](https://docs.github.com/en/enterprise-server@3.1/actions/reference/context-and-expression-syntax-for-github-actions)
 
  ### 1. Expression 

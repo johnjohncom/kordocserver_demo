@@ -1,3 +1,13 @@
+---
+layout: default
+title: workflow yaml syntax
+parent: workflow파일
+nav_order: 2
+has_children: false
+---
+
+
+
 # [Workflow file YAML Syntax](https://docs.github.com/en/enterprise-server@3.1/actions/learn-github-actions/introduction-to-github-actions#create-an-example-workflow)
 
 ```
