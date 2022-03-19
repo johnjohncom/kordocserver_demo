@@ -2,6 +2,7 @@
 layout: default
 title: GHES built-in Actions org
 parent: Actions의 GHES설정
+grand_parent: GitHub Actions란
 nav_order: 1
 ---
 
