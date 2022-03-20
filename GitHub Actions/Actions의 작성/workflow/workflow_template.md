@@ -11,16 +11,14 @@ nav_order: 5
 
 1. 조직내 `.github` 이름을 가진 저장소를 생성하고 여기에 워크플로우를 조직내에서 공유할 수 있습니다. 
    
-  - Public/Private 저장소 모두 가능
+   - Public/Private 저장소 모두 가능
 
 2. 템플릿 생성 방법 🎛️
 
-  - 조직내 `.github` 저장소 생성
-  
-  - `workflow-template` 이라는 디렉토리 생성하고, 이 디렉토리에 워크플로우 파일과 metadata파일 생성
+   - 조직내 `.github` 저장소 생성
+   - `workflow-template` 이라는 디렉토리 생성하고, 이 디렉토리에 워크플로우 파일과 metadata파일 생성
       - 워크플로우를 사용할 각 저장소의 default branch는 `$default-branch`로 참조
-      
-  - metadata 파일 생성
+   - metadata 파일 생성
       - metadata파일은 `.properties.json` 확장자
       - metadata파일 이름은 workflow 파일이름과 동일해야 함
       - metadata파일 구조
@@ -48,7 +46,7 @@ nav_order: 5
        - `categories` : Optional
        - `filePatterns` : Optional
  
- 3. 사용
+3. 사용
  
    - Organization내 저장소에서 'Action' 탭
    - 'New workflow' 메뉴
