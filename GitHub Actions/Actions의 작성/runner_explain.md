@@ -92,10 +92,9 @@ nav_order: 2
      - [OS별 사전 설치된 소프트웨어 확인](https://docs.github.com/en/enterprise-server@latest/actions/using-github-hosted-runners/about-github-hosted-runners#preinstalled-software)
     
      - 예: Ubuntu 20.04 LTS 
-  
-    <img src="https://user-images.githubusercontent.com/40287191/121188796-6b943980-c8a4-11eb-8cd7-9f935c4f033d.png" width="250" height="600">  
-    <img src="https://user-images.githubusercontent.com/40287191/121188890-81a1fa00-c8a4-11eb-9dd6-0f681770c4cc.png" width="250" height="600">  
-    <img src="https://user-images.githubusercontent.com/40287191/121189004-a007f580-c8a4-11eb-8c1b-25297a8a760a.png" width="250" height="600">
+      <img src="https://user-images.githubusercontent.com/40287191/121188796-6b943980-c8a4-11eb-8cd7-9f935c4f033d.png" width="250" height="600">  
+      <img src="https://user-images.githubusercontent.com/40287191/121188890-81a1fa00-c8a4-11eb-9dd6-0f681770c4cc.png" width="250" height="600">  
+      <img src="https://user-images.githubusercontent.com/40287191/121189004-a007f580-c8a4-11eb-8c1b-25297a8a760a.png" width="250" height="600">
 
 
   5. IP address of GitHub-hosted runner
