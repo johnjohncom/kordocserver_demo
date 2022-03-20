@@ -7,13 +7,12 @@ nav_order: 6
 ---
 
 
-# [Workflow 실행관리](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs)
+## [Workflow 실행관리](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs)
 
 1. [Visualization graph](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/using-the-visualization-graph) : 저장소 Actions 탭에서, 왼편의 사이드바에서 보고자 할 워크플로우 클릭 > 오른쪽의 워크플로우 run 리스트 중 선택
    
     <img src="https://user-images.githubusercontent.com/40287191/123577235-658fd980-d80e-11eb-8a9e-bf144fe94993.png" width="600" height="400">
 
-<br/>
 
 2. [워크플로우 run log](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/using-workflow-run-logs) : 저장소 Actions 탭에서, 왼편의 사이드바에서 보고자 할 워크플로우 클릭 > 오른쪽의 워크플로우 run 리스트 중 선택 > 왼편 하단의 'Jobs'에서 보고자 할 job 선택
   
@@ -28,8 +27,7 @@ nav_order: 6
   
      <img src="https://user-images.githubusercontent.com/40287191/123583900-654a0b00-d81b-11eb-8909-c323bc840e50.png" width="700" height="200">
 
-  <br/>
-  
+
 3. [워크플로우 수동으로 run](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/manually-running-a-workflow)
 
    - 워크 플로우의 트리거 조건이 `workflow_dispatch`로 설정되어 있을 때, Actions 탭 > 왼편 사이드 바에서 워크플로우 선택 > 오른편 'Run workflows'
@@ -38,7 +36,6 @@ nav_order: 6
     
      <img src="https://user-images.githubusercontent.com/40287191/123585587-6fb9d400-d81e-11eb-9762-63f573fda588.png" width="250" height="200">
 
-<br/>
   
 4. [워크플로우 re-run](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/re-running-a-workflow)
 
@@ -46,8 +43,7 @@ nav_order: 6
    
      <img src="https://user-images.githubusercontent.com/40287191/123586553-dbe90780-d81f-11eb-8ba2-2fffbc3eabd7.png" width="650" height="150">
   
-<br/>
-  
+ 
 5. [워크플로우 실행 취소](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/canceling-a-workflow)
 
    - 실행중인 워크 플로우 취소 : Action 탭 > 왼편 사이드바에서 워크플로우 클릭 > 오른편의 워크플로우 run 리스트에서 `queued` 또는 `in progress`클릭 > 'Cancel workflow' 
@@ -57,7 +53,6 @@ nav_order: 6
     
      <img src="https://user-images.githubusercontent.com/40287191/123586941-777a7800-d820-11eb-8403-f6ec35f3ac19.png" width="600" height="150">
 
-<br/>
   
 6. [워크플로우 활성화/비활성화](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/disabling-and-enabling-a-workflow)
 
@@ -75,21 +70,18 @@ nav_order: 6
    - 다시 활성화하기 위해서는 비활성화된 워크플로우에서 'enable workflow' 메뉴
      ![image](https://user-images.githubusercontent.com/40287191/123590117-2d47c580-d825-11eb-89d5-b005b7ee9dd6.png)
    
-<br/>
-  
+ 
 7. [워크플로우 run 삭제](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/deleting-a-workflow-run)
 
    - Action 탭 > 왼편 사이드바에서 워크플로우 클릭 > 오른편의 워크플로우 run 리스트에서 삭제하고자 하는 것 클릭
      <img src="https://user-images.githubusercontent.com/40287191/123590278-66803580-d825-11eb-8e0b-559e01b806b2.png" width="750" height="150">
    
-<br/>
-  
+ 
 8. 워크플로우 artifact [다운로드](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/downloading-workflow-artifacts), [삭제](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/removing-workflow-artifacts)
 
    - Action 탭 > 왼편 사이드바에서 워크플로우 클릭 > 오른편의 워크플로우 run 리스트에서 실행했던 run 선택 > 하단의 'Artifact' 클릭
     <img src="https://user-images.githubusercontent.com/40287191/123590564-c37beb80-d825-11eb-9579-8bb9ef6da3de.png" width="600" height="150">
    
-<br/>
   
 9. [디버그 로깅 활성화](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/enabling-debug-logging)
 
@@ -106,7 +98,6 @@ nav_order: 6
      - 워크플로우가 있는 저장소의 secret 메뉴에 'ACTIONS_STEP_DEBUG` 추가 (값은 `true`)
      - 확인은 step log에서 확인 
 
-<br/>
   
 10. [배포 리뷰](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/reviewing-deployments) 
 
@@ -119,9 +110,6 @@ nav_order: 6
     - 리뷰어로 지정된 사람은, 워크플로우에서 아래와 같이 작업을 승인 또는 거부
       ![image](https://user-images.githubusercontent.com/40287191/123595984-8c5d0880-d82c-11eb-91ef-960ea8a97eab.png)
       <img src="https://user-images.githubusercontent.com/40287191/123595998-8ff08f80-d82c-11eb-8281-07f759146b48.png" width="400" height="300">
-
-
-<br/>
   
 
 11. [Status 배지 추가](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/adding-a-workflow-status-badge)
