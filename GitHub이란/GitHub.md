@@ -15,7 +15,7 @@ has_children: true
 <br>
 <br>
 
-## 1 Version control = Git
+## 1. Version control = Git
   
 ### Version control은 필요합니다. 
   
@@ -42,7 +42,7 @@ has_children: true
 <br>
 <br>
 
-## 2 소프트웨어 개발 + 협업 
+## 2. 소프트웨어 개발 + 협업 
   
 ### 소프트웨어의 개발은 가장 큰 팀스포츠 이자, 협업의 산물 입니다. 
   ![image](https://user-images.githubusercontent.com/40287191/120286337-18951200-c2f9-11eb-8535-16681aafe678.png)
@@ -53,7 +53,7 @@ has_children: true
 <br>
 <br>
 
-## 3 Git = GitHub ?
+## 3. Git = GitHub ?
 
 ### GitHub은 Git 기반의 개발 협업 플랫폼 입니다. 
 ![image](https://user-images.githubusercontent.com/40287191/120290596-74fa3080-c2fd-11eb-8a59-a58a275ba164.png)
@@ -61,7 +61,7 @@ has_children: true
 <br>
 <br>
 
-## 4 오픈 소스 = GitHub.com
+## 4. 오픈 소스 = GitHub.com
  
 ### GitHub은 전세계 오픈소스 프로젝트가 함께 협력하고 개발하는 곳입니다. 
 ![image](https://user-images.githubusercontent.com/40287191/120288730-82162000-c2fb-11eb-8b46-80b6aeb53e1c.png)
@@ -75,7 +75,7 @@ has_children: true
 <br>
 <br>
 
-## 5 오픈소스 🤝 이너소스(Innersource) 
+## 5. 오픈소스 🤝 이너소스(Innersource) 
 
 ### DevOps 만으로는 충분치 않습니다. 진정 팀간의 벽을 허무는 것이 필요합니다. 
   ![image](https://user-images.githubusercontent.com/40287191/120304886-25226600-c30b-11eb-9619-2586423dd030.png)
