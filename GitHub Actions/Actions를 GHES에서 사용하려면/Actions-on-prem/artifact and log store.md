@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troubleshooting, log파일
+title: Artifacts와 로그 저장 정책
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
 nav_order: 4

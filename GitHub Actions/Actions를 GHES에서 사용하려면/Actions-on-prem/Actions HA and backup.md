@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Troubleshooting, log파일
+title: Actions 이중화, 백업
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
 nav_order: 5
 ---
 
 
-# 5. Actions 이중화, 백업
+# Actions 이중화, 백업
 
 ## GitHub Actions 이중화](https://docs.github.com/en/enterprise-server@3.1/admin/github-actions/advanced-configuration-and-troubleshooting/high-availability-for-github-actions)   
    

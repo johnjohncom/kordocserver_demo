@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troubleshooting, log파일
+title: Scheduled workflow들의 불필요한 실행 방지
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
 nav_order: 6
