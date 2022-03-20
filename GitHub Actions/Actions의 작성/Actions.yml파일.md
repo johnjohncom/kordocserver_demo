@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 
-# [Metadata syntax](https://docs.github.com/en/enterprise-server@3.1/actions/creating-actions/metadata-syntax-for-github-actions)
+# [Metadata syntax](https://docs.github.com/en/enterprise-server@latest/actions/creating-actions/metadata-syntax-for-github-actions)
 
 1. 메타 데이터 파일은 `action.yml` 또는 `action.yaml` 이라는 파일 이름을 가져야 합니다. 
 
@@ -20,7 +20,7 @@ nav_order: 3
    author | **Optional** author의 이름.
    description | **Required** action에 대한 짧은 설명.
    inputs | **Optional** Input 파라미터는 런타임 동안 action이 사용할 데이터를 정의. Input 파라미터는 environment variables로 저장됨. Input ID는 소문자로 사용이 권고(대문자인 Input ID는 런타임동안 소문자로 변환됨) <br><br> Example: <br> - 이 예는 두 개의 input `numoctocats`와 `octocatEyeColor`를 정의. <br> - `numoctocats`은 항상 요구되지 않으며 기본값으로 '1'을 설정. <br> - `octocatEyeColor`는 항상 요구되며 기본값이 없음. <br> - 워크 플로우는 `with` 키워드를 사용해 `octocatEyeColor`의 input value를 지정해야 함. <br> <pre> inputs:<br>   numOctocats:<br>    description: 'Number of Octocats'<br>    required: false<br>    default: '1'<br>   octocatEyeColor:<br>    description: 'Eye color of the Octocats'<br>    required: true</pre> - 워크플로우 파일내에 input 값을 지정하거나, default value를 지정할 때, GitHub은 `INPUT_<VARIABLE_NAME>` 이라는 이름의 environment variable을 생성.<br> - composite으로 생성된 action은 자동으로 `INPUT_<VARIABLE_NAME>`을 자동으로 생성하지 않으며 수동으로 생성해야 함.<br> - Docker 컨테이너 action에서 이 environment variable에 접근하기 위해서는 메타데이터 파일에서 `arg`키워드를 사용해 input 값을 넘겨 줘야 함. 예를 들어, 워크플로우가 `numoctocats`와 `octocatEyeColor`의 input을 정의한다면, action은 이 값들을 각각 input의 값을 `INPUT_NUMOCTOCATS` 과 `INPUT_OCTOCATEYECOLOR` environment variables로 읽어들임.
-   outputs | **Optional** Output 파라미터는 actions이 설정하는 데이터를 선언. 워크플로우내에 이후에 실행되는 Actions는 이전 실행되었던 actions들로 부터의 output 데이터 set을 사용할 수 있음. <br> - 예를들어, 두개의 input을 더하는 action이 있다면 (x + y = z), 이것의 output인 sum (z)를 다른 actions의 input으로 사용할 수 있습니다. <br> - Output을 선언하지 않아도, output을 워크플로우내에서 사용할 수 있습니다. Output에 대한 추가적인 정보는 ["Workflow commands for GitHub Actions."](https://docs.github.com/en/enterprise-server@3.1/actions/reference/workflow-commands-for-github-actions/#setting-an-output-parameter)<br> <pre> outputs: <br>  sum: # id of the output<br>    description: 'The sum of the inputs' </pre>
+   outputs | **Optional** Output 파라미터는 actions이 설정하는 데이터를 선언. 워크플로우내에 이후에 실행되는 Actions는 이전 실행되었던 actions들로 부터의 output 데이터 set을 사용할 수 있음. <br> - 예를들어, 두개의 input을 더하는 action이 있다면 (x + y = z), 이것의 output인 sum (z)를 다른 actions의 input으로 사용할 수 있습니다. <br> - Output을 선언하지 않아도, output을 워크플로우내에서 사용할 수 있습니다. Output에 대한 추가적인 정보는 ["Workflow commands for GitHub Actions."](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-commands-for-github-actions/#setting-an-output-parameter)<br> <pre> outputs: <br>  sum: # id of the output<br>    description: 'The sum of the inputs' </pre>
    runs | **Required** action의 코드와 코드를 실행하는 필요한 어플리케이션에 대한 경로 설정 
    branding | 자신의 action을 구분할 수 있도록 특정 색깔과 Feather 아이콘을 사용해 뱃지를 생성. 뱃지는 GitHub Marketplace에서 action이름의 옆에 보여짐. 
 
@@ -76,9 +76,9 @@ nav_order: 3
    `runs.using` | **required** action에서 composite run steps를 사용하려면 `"composite"`으로 설정
    `runs.steps` | **required** action에서 실행시킬 steps
    `runs.steps[*].run` | **required** 실행할 커맨드. inline 또는 저장소내 스크립트 <pre>runs:<br>  using: "composite"<br>  steps:<br>    - run: ${{ github.action_path }}/test/script.sh<br>      shell: bash</pre> - 또는 `$GITHUB_ACTION_PATH`를 사용 <pre>runs:<br>  using: "composite"<br>  steps:<br>    - run: $GITHUB_ACTION_PATH/script.sh<br>      shell: bash</pre>
-   `runs.steps[*].shell` | **required** command를 실행할 shell 지정. [list중](https://docs.github.com/en/enterprise-server@3.1/actions/reference/workflow-syntax-for-github-actions#using-a-specific-shell) 지정
+   `runs.steps[*].shell` | **required** command를 실행할 shell 지정. [list중](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-syntax-for-github-actions#using-a-specific-shell) 지정
    `runs.steps[*].name` | **Optional** composite run step의 이름
-   `runs.steps[*].id` | **Optional** step에 대한 고유의 id. `id`를 사용해 Contexts에서 step을 참조할 수 있음 (["Context and expression syntax for GitHub Actions"](https://docs.github.com/en/enterprise-server@3.1/actions/reference/context-and-expression-syntax-for-github-actions))
+   `runs.steps[*].id` | **Optional** step에 대한 고유의 id. `id`를 사용해 Contexts에서 step을 참조할 수 있음 (["Context and expression syntax for GitHub Actions"](https://docs.github.com/en/enterprise-server@latest/actions/reference/context-and-expression-syntax-for-github-actions))
    `runs.steps[*].env` | **Optional** 해당 step에 대한 environment variable의 `map` 설정. 워크플로우에 저장된 environment variable을 수정하려면, composite 실행 step에서 `echo "{name}={value}" >> $GITHUB_ENV` 사용
    `runs.steps[*].working-directory` | **Optional** command가 실행되는 working 디렉토리 설정  
    

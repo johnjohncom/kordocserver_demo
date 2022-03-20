@@ -7,7 +7,7 @@ nav_order: 7
 ---
 
 
-# [Workflow Commands](https://docs.github.com/en/enterprise-server@3.1/actions/reference/workflow-commands-for-github-actions)
+# [Workflow Commands](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-commands-for-github-actions)
 
 ### 1. 설명
    - Actions는 러너와 통신하여 환경변수를 설정하거나, 다른 Actions들에서 사용할 output value, 또는 디버그를 위해 output log에 디버그 메세지를 포함하는 등 다양한 task들을 수행할 수 있습니다. 
@@ -55,7 +55,7 @@ nav_order: 7
     
   - `::set-output name={name}::{value}`
   - Action의 output 파라미터 설정
-  - 부가적으로, `action.yml`, `action.yaml`의 [메타데이터 파일을 통해 output 파라미터를 설정](https://docs.github.com/en/enterprise-server@3.1/actions/creating-actions/metadata-syntax-for-github-actions#outputs)할 수도 있습니다. 
+  - 부가적으로, `action.yml`, `action.yaml`의 [메타데이터 파일을 통해 output 파라미터를 설정](https://docs.github.com/en/enterprise-server@latest/actions/creating-actions/metadata-syntax-for-github-actions#outputs)할 수도 있습니다. 
   - 예
   
      ```
@@ -70,7 +70,7 @@ nav_order: 7
     
   - `::debug::{message}`
   - log에 디버그 메세지 출력. 
-  - 반드시 저장소에 `ACTIONS_STEP_DEBUG` 라는 이름을 가진 secret을 생성해야 하고, 값은 `true` 로 설정해야 합니다. ([설명](https://docs.github.com/en/enterprise-server@3.1/actions/managing-workflow-runs/enabling-debug-logging))
+  - 반드시 저장소에 `ACTIONS_STEP_DEBUG` 라는 이름을 가진 secret을 생성해야 하고, 값은 `true` 로 설정해야 합니다. ([설명](https://docs.github.com/en/enterprise-server@latest/actions/managing-workflow-runs/enabling-debug-logging))
   - 예
 
      ```
@@ -177,7 +177,7 @@ nav_order: 7
    - `save-state` 커맨드를 이용해 워크플로우의 `pre:` 또는 `post:` action을 공유하기 위한 환경 변수들을 생성할 수 있습니다. 
    - 예를들어, `pre:` action을 통해 파일을 만들고, 파일의 위치를 `main:` action으로 보내고, `post:` action을 이용해 파일을 삭제할 수 있습니다. 또는 `main:` action으로 파일을 생성하고, 파일 위치를 `post:` action으로 보내고, `post:` action을 이용해 파일을 삭제할 수 있습니다.
    - 만약 여러개의 `pre:` 또는 `post:` action들이 존재한다면, `save-state` 가 사용된 action에 저장된 값만 접근할 수 있습니다. 
-   - 더 자세한 정보는 ["Metadata Syntax for GitHub Actions"](https://docs.github.com/en/enterprise-server@3.1/actions/creating-actions/metadata-syntax-for-github-actions#post)에 설명되어 있습니다. 
+   - 더 자세한 정보는 ["Metadata Syntax for GitHub Actions"](https://docs.github.com/en/enterprise-server@latest/actions/creating-actions/metadata-syntax-for-github-actions#post)에 설명되어 있습니다. 
    - `save-state` 커맨드는 action내에서만 사용가능하고, YAML 파일에서는 사용가능하지 않습니다. 저장된 값은 `STATE_` prefix가 붙은 환경값으로 저장됩니다. 
    - 아래 예는 JavaScript로 `save-state` 커맨드를 실행한 예제입니다. 결과로 저장되는 환경변수는 `STATE_processID`라는 이름으로 값은 `12345`가 저장됩니다. 
    

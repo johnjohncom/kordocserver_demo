@@ -9,7 +9,7 @@ nav_order: 3
 
 # Troublshooting, 로그파일
 
-## [GitHub Actions Troubleshooting](https://docs.github.com/en/enterprise-server@3.1/admin/github-actions/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise) 
+## [GitHub Actions Troubleshooting](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise) 
   
    - GHES에 Self-signed certificate 사용시 Self-hosted 러너 등록 : GHES는 공인된 기관에서 서명된 공인 인증서의 사용이 강력히 권장되지만, self-signed 인증서를 사용할 때 방법이 설명되어 있습니다. 
   
@@ -27,9 +27,9 @@ nav_order: 3
      
      - 과도한 Actions의 실행으로 메모리와 CPU 용량의 한도가 되었을 경우, (러너들이 idle한 것들이 있다해도) job들이 시작되지 않고 UI상에서 아무 변화가 없는 경우가 생길 수 있습니다. 
      
-     - 1. [관리 콘솔에서 CPU와 메모리 사용량 확인](https://docs.github.com/en/enterprise-server@3.1/admin/enterprise-management/accessing-the-monitor-dashboard) 
+     - 1. [관리 콘솔에서 CPU와 메모리 사용량 확인](https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/accessing-the-monitor-dashboard) 
         
-       - Overall system health의 CPU와 메모리 사용량에 따라 [CPU, 메모리 용량 증설](https://docs.github.com/en/enterprise-server@3.1/admin/enterprise-management/increasing-cpu-or-memory-resources) 고려 
+       - Overall system health의 CPU와 메모리 사용량에 따라 [CPU, 메모리 용량 증설](https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/increasing-cpu-or-memory-resources) 고려 
      
        <br>
      
@@ -82,9 +82,9 @@ nav_order: 3
   
         - `ghe-actions-check`을 실행하여 Actions의 상태를 확인합니다. 
   
-## [Self-hosted 러너 Troublshooting, 로그파일](https://docs.github.com/en/enterprise-server@3.1/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners)
+## [Self-hosted 러너 Troublshooting, 로그파일](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners)
   
-   - [Self-hoste runner 상태 확인](https://docs.github.com/en/enterprise-server@3.1/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners#checking-the-status-of-a-self-hosted-runner) : idle, Action, Offline
+   - [Self-hoste runner 상태 확인](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners#checking-the-status-of-a-self-hosted-runner) : idle, Action, Offline
   
    <img src="https://user-images.githubusercontent.com/40287191/125399198-37ec8800-e3eb-11eb-84cc-e9500a6278ba.png" width="700" height="150">
 
@@ -109,6 +109,6 @@ nav_order: 3
      User=runner-user
      ```
   
-   - [Self-hosted 러너 삭제](https://docs.github.com/en/enterprise-server@3.1/actions/hosting-your-own-runners/removing-self-hosted-runners)
+   - [Self-hosted 러너 삭제](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/removing-self-hosted-runners)
 
 <br/>

@@ -9,7 +9,7 @@ nav_order: 5
 
 # Actions 이중화, 백업
 
-## GitHub Actions 이중화](https://docs.github.com/en/enterprise-server@3.1/admin/github-actions/advanced-configuration-and-troubleshooting/high-availability-for-github-actions)   
+## [GitHub Actions 이중화](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/advanced-configuration-and-troubleshooting/high-availability-for-github-actions)   
    
    - GitHub Enterprise Server 자체의 백업과 이중화 구성은, Action이 사용하는 외부 S3 blob 스토리지(Azure, Amazon, MinIO)의 백업과 이중화와는 **제공하지 않습니다**. 
  
@@ -18,7 +18,7 @@ nav_order: 5
    - GitHub Enterprise Server 운영 중, 이중화 replica를 primary로 승격하는 경우, GitHub Actions을 위해 별도의 구성이나 작업이 필요하지 않습니다. 
  
    
-## Backup and restoring](https://docs.github.com/en/enterprise-server@3.1/admin/github-actions/advanced-configuration-and-troubleshooting/backing-up-and-restoring-github-enterprise-server-with-github-actions-enabled)
+## [Backup and restoring](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/advanced-configuration-and-troubleshooting/backing-up-and-restoring-github-enterprise-server-with-github-actions-enabled)
  
    - GitHub Enterprise Server 자체의 백업과 이중화 구성은, 외부 S3 blob 스토리지의 백업 및 이중화는 제공하지 않습니다. 
  

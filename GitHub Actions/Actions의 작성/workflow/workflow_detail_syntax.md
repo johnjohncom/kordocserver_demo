@@ -7,7 +7,7 @@ nav_order: 4
 ---
 
 
-# [Workflow syntax](https://docs.github.com/en/enterprise-server@3.1/actions/reference/workflow-syntax-for-github-actions) 
+# [Workflow syntax](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-syntax-for-github-actions) 
 
 
 
@@ -35,7 +35,7 @@ syntax | 설명
 `jobs.<job_id>.uses` | step에서 실행할 action <br> - `{owner}/{repo}@{ref}` <br> - `{owner}/{repo}/{path}@{ref}` <br> - `./path/to/dir` <br> - `docker://{image}:{tag}` <br> - `docker://{host}/{image}:{tag}`
 `jobs.<job_id>.steps` | job내에 순차적으로 실행되는 steps
 `jobs.<job_id>.steps[*].if` | `if` 컨디션을 통해 조건이 충족되지 못할 경우 step의 실행을 방지 <br> `if`조건의 표현식에서 연산자가 없다면 `${{ }}` 사용하지 않아도 됨. <pre> steps: <br>  - name: My first step <br>  if: ${{ github.event_name == 'pull_request' && github.event.action == 'unassigned' }} <br>  run: echo This event is a pull request that had an assignee removed.
-`jobs.<job_id>.steps[*].run` | - `\|` : 멀티라인 명령어 <br> - `working-directory:` <br> - `shell`: [사용할 특정 shell 지정](https://docs.github.com/en/enterprise-server@3.1/actions/reference/workflow-syntax-for-github-actions#using-a-specific-shell) <br> 
+`jobs.<job_id>.steps[*].run` | - `\|` : 멀티라인 명령어 <br> - `working-directory:` <br> - `shell`: [사용할 특정 shell 지정](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-syntax-for-github-actions#using-a-specific-shell) <br> 
 `jobs.<job_id>.steps[*].with` | 환경 변수로 정의된 인풋 파라미터의 사용. 각 인풋 파라미터는 key/value pair <pre> jobs:<br>  my_first_job:<br>    steps:<br>      - name: My first step<br>        uses: actions/hello_world@main<br>        with:<br>          first_name: Mona<br>          middle_name: The<br>          last_name: Octocat      </pre>
 `jobs.<job_id>.steps[*].with.args` | 도커 컨테이너를 위한 인풋을 정의하는 string. GitHub은 `args`를 컨테이너 시작시 `ENTRYPOINT`로 전달. <pre> steps:<br>  - name: Explain why this job ran<br>    uses: monacorp/action-name@main<br>    with:<br>      entrypoint: /bin/echo<br>      args: The ${{ github.event_name }} event triggered this step.</pre>
 `jobs.<job_id>.steps[*].with.entrypoint` | `Dokerfile`내에 `ENTRYPOINT`를 덮어씀, 또는 `ENTRYPOINT`로 설정되지 않았으면 설정.

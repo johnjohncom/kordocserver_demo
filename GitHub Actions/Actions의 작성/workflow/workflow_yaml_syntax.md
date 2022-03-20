@@ -8,7 +8,7 @@ nav_order: 2
 
 
 
-# [Workflow file YAML Syntax](https://docs.github.com/en/enterprise-server@3.1/actions/learn-github-actions/introduction-to-github-actions#create-an-example-workflow)
+# [Workflow file YAML Syntax](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/introduction-to-github-actions#create-an-example-workflow)
 
 ```
 name: learn-github-actions
