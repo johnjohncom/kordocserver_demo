@@ -7,7 +7,7 @@ nav_order: 7
 ---
 
 
-# [Workflow Commands](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-commands-for-github-actions)
+## [Workflow Commands](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-commands-for-github-actions)
 
 ### 1. 설명
    - Actions는 러너와 통신하여 환경변수를 설정하거나, 다른 Actions들에서 사용할 output value, 또는 디버그를 위해 output log에 디버그 메세지를 포함하는 등 다양한 task들을 수행할 수 있습니다. 

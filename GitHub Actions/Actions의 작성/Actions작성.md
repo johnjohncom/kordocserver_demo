@@ -5,12 +5,12 @@ parent: GitHub Actions란
 nav_order: 4
 ---
 
-# howto_Actions ✨
+## howto_Actions ✨
 <img src="https://user-images.githubusercontent.com/40287191/122417056-2ec2f380-cfc4-11eb-8147-b3e869b1fb4a.png" width="460" height="250">
 
 
 
-# 1. 🎯 Actions 작성, 사용, 공유 
+### 1. 🎯 Actions 작성, 사용, 공유 
 
   - Actions는 전체 Workflow의 각 단계를 구성하는 단위 요소이며, 각각 지정된 동작을 수행합니다. 
   
@@ -110,7 +110,7 @@ nav_order: 4
 
 <br/>
 
-# 2. Actions의 주요 features
+### 2. Actions의 주요 features
 
   1. [Workflow내 Variable 사용](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/essential-features-of-github-actions#using-variables-in-your-workflows)
     
@@ -131,8 +131,7 @@ nav_order: 4
   
      - [Environment variables](https://docs.github.com/en/enterprise-server@latest/actions/reference/environment-variables) 참조
   
-  <br/>
-  
+
   2. [Workflow에 스크립트 추가](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/essential-features-of-github-actions#adding-scripts-to-your-workflow)
    
      - `run` 키워드를 사용해 스크립트나 쉘 명령어를 수행하는 Actions를 구성할 수 있습니다. 
@@ -153,8 +152,7 @@ nav_order: 4
                 shell: bash
        ```
   
-  <br/>
-  
+
   3. [Job간의 데이터 공유](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/essential-features-of-github-actions#sharing-data-between-jobs)
   
      - 같은 workflow내에서 어느 job이 생성한 파일을 다른 job에 공유하도록 구성할 수 있습니다. 
@@ -190,8 +188,7 @@ nav_order: 4
                 name: output-log-file
      ```
   
-  <br/>
-  
+ 
   4. [Secret의 저장](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/managing-complex-workflows#storing-secrets)
    
      - Workflow 내에서 패스워드 또는 certificate을 사용해야 할 때, 저장소 또는 조직에 `secret`을 저장하고 환경 변수로서 사용할 수 있습니다. 
@@ -208,7 +205,6 @@ nav_order: 4
                 example-command "$super_secret"
       ```
  
-  <br/>
   
   5. [Dependent job 생성](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/managing-complex-workflows#creating-dependent-jobs)
   
@@ -232,8 +228,7 @@ nav_order: 4
               - run: ./test_server.sh
        ```
   
-  <br/>
-  
+ 
   6. [Build Matrix 사용](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/managing-complex-workflows#using-a-build-matrix)
   
        - Build Matrix를 이용해 OS, 플랫폼, 언어등의 다양한 조합으로 동시에 워크 플로우를 실행할 수 있습니다. 
@@ -252,8 +247,7 @@ nav_order: 4
                   node-version: ${{ matrix.node }}
        ```
    
-  <br/>
-  
+
   7. [Database와 서비스 컨테이너 사용](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/managing-complex-workflows#using-databases-and-service-containers)
   
        - Job이 데이터베이스 또는 Cache 서비스를 필요로 한다면, `services` 키워드를 사용하여 한시적으로 서비스를 생성할 수 있습니다. 이렇게 생성된 컨테이너는 해당 job내 모든 step들이 사용할 수 있고, job의 실행이 완료되면 삭제됩니다.
@@ -279,8 +273,7 @@ nav_order: 4
                 POSTGRES_PORT: 5432
       ```
   
-  <br/>
-  
+
   8. [Label의 사용](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/managing-complex-workflows#using-labels-to-route-workflows)
 
        - job을 특정 self-hosted 러너에 할당하기 위해 label을 사용합니다. 특정 형태의 러너가 job을 실행하도록 하기 위해 label을 사용해 job이 실행될 러너를 지정합니다. 
@@ -291,8 +284,7 @@ nav_order: 4
           runs-on: [self-hosted, linux, x64, gpu]
        ```
  
-  <br/>
-  
+
   9. [Environment 사용](https://docs.github.com/en/enterprise-server@latest/actions/learn-github-actions/managing-complex-workflows#using-environments)
   
        - Environment에 대한 보호 룰과 secret을 설정할 수 있습니다. 
@@ -303,31 +295,31 @@ nav_order: 4
 <br/>
 
 
-# 3. Workflow 파일 ♾️
+### 3. Workflow 파일 ♾️
  
-   1. ⚙️ [Workflow 파일 구조](workflow_file/workflow_file_component.md)
+   1. ⚙️ [Workflow 파일 구조](/GitHub Actions/Actions의 작성/workflow/workflow_file_component.md)
    
-   2. [Workflow 파일 템플릿 : 조직내 워크플로우 공유](workflow_file/workflow_template.md) 📔
+   2. [Workflow 파일 템플릿 : 조직내 워크플로우 공유](/GitHub Actions/Actions의 작성/workflow/workflow_template.mdd) 📔
    
-   3. [Workflow 트리거](workflow_file/workflow_trigger.md) 🔫
+   3. [Workflow 트리거](/GitHub Actions/Actions의 작성/workflow/workflow_trigger.md) 🔫
    
-   4. [Workflow 파일 YAML 예제와 설명](workflow_file/workflow_yaml_syntax.md) 📗
+   4. [Workflow 파일 YAML 예제와 설명](/GitHub Actions/Actions의 작성/workflow/workflow_yaml_syntax.md) 📗
    
-   5. [👷 Workflow 실행 관리](workflow_file/workflow_manage.md)
+   5. [👷 Workflow 실행 관리](/GitHub Actions/Actions의 작성/workflow/workflow_manage.md)
    
-   6. [Workflow 내에서의 인증 : `GITHUB_TOKEN` 또는 PAT ](workflow_file/workflow_authentication.md) 🔑
+   6. [Workflow 내에서의 인증 : `GITHUB_TOKEN` 또는 PAT ](/GitHub Actions/Actions의 작성/workflow/workflow_authentication.md) 🔑
 
    7. Workflow syntax, Workflow Command, Context/Expression Syntax
      
-      - ✅ [Workflow syntax](workflow_file/workflow_detail_syntax.md)
+      - ✅ [Workflow syntax](/GitHub Actions/Actions의 작성/workflow/workflow_detail_syntax.md)
    
-      - [Workflow Commands](workflow_file/workflow_commands.md)
+      - [Workflow Commands](/GitHub Actions/Actions의 작성/workflow/workflow_commands.md)
 
-      - [Context and expression syntax](workflow_file/context_and_expression_syntax.md)
+      - [Context and expression syntax](/GitHub Actions/Actions의 작성/workflow/context_and_expression_syntax.md)
 
 <br/>
  
-# 4. Docker 컨테이너 Actions 📦
+### 4. Docker 컨테이너 Actions 📦
   
    - Docker 컨테이너는 GitHub Actions의 코드와 실행환경을 함께 패키징합니다. 이것은 Actions의 사용자가 tool이나 의존성등을 걱정할 필요없이 더욱 일관되고 신뢰할 수 있는 action 실행 단위를 만들어 줍니다. 
    - Docker 컨테이너를 통해 OS의 특정 버젼, 의존성, tools와 코드를 사용할 수 있습니다. 특정한 환경 구성에서 동작해야만 하는 actions들은 Docker가 가장 적합한 방법입니다. 컨테이터를 생성하고 필요한 것들을 가져오는 데 소요되는 latency로 인해 JavaScript actions에 비해 느립니다.
@@ -339,7 +331,7 @@ nav_order: 4
 <br/>
  
 
-# 5. JavaScript Actions 📜
+### 5. JavaScript Actions 📜
  
    - JavaScript actions는 러너 머신에서 직접적으로 실행되고, action의 코드가 코드를 실행하는데 사용되는 환경으로 부터 분리됩니다. 
 
@@ -355,7 +347,7 @@ nav_order: 4
  <br/>
  
 
-# 6. Composite run steps Actions
+### 6. Composite run steps Actions
 
    - _Composite run steps_ actions는 하나의 action에 여러개의 steps들을 묶어 실행시킬 수 있습니다.
    

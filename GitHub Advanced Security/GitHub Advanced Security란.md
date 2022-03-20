@@ -6,14 +6,12 @@ has_children: true
 ---
 
 
-# getting-started GHAS   
+## getting-started GHAS   
 - GHAS는 GitHub의 보안 기능인 Advanced Security 기능입니다. 
 - GitHub 플랫폼에 내제된 코드 정적분석(SAST)기능과 Secret Scanning(토큰, Certificate등을 자동 검출)해 주는 기능입니다. 
 - 이 밖에도 프로젝트의 소프트웨어 의존성에 대한 자동 분석(SCA:Software Composition Analysis)과 의존성에 대한 보안 취약성 알람, 알람 발생된 보안 취약성에 대한 자동 업데이트(Dependabot) 기능은 '기본'으로 포함되어 있습니다.
 
 ## 왜 보안이 중요 😶❓ 
-<details><summary> 🔍 </summary>
-<p>
 
 - 오픈소스 프로젝트는 이미 대세 <br>
 - 상용 코드들의 90%가 오픈소스에 의존 
@@ -23,14 +21,9 @@ has_children: true
    ![Advanced Security Deck](https://user-images.githubusercontent.com/40287191/120103297-e9ac5e00-c189-11eb-96a6-e6b723b58dfe.png)
 
 - 보안은 **[모두의 공동책임](WhySecurity.md)** 입니다.
-   
-</p>
-</details>
 
 ## 현재는 어떤 모습이신지요 🧐
-<details><summary>🔍</summary>
-<p>
-   
+  
 * Devs와 Security팀이 어떻게 일하시나요? 🖥️
   * working relationship 🧑‍🤝‍🧑 : single team 처럼 함께 협력하시는지, 아니면 의사소통만 오가는 정도인지요?
   
@@ -54,25 +47,20 @@ has_children: true
   
   * 현재 사용하시는 소스코드관리/협업 플랫폼은? 👀
 
-</p>
-</details>
-
-# 보안은 전체의 공동 책임 이어야 합니다. 
+## 보안은 전체의 공동 책임 이어야 합니다. 
 ![GitHub Advanced Security_Kor](https://user-images.githubusercontent.com/40287191/119857145-48859380-bf4e-11eb-9d77-eca22533bc12.png)
 ![GitHub Advanced Security_Kor (1)](https://user-images.githubusercontent.com/40287191/119857223-59360980-bf4e-11eb-8677-48b2231331b9.png)
 
-# 보안을 shift-left해야 하지만, 보안팀의 수는 Devs에 비해 많이 작습니다. 
+## 보안을 shift-left해야 하지만, 보안팀의 수는 Devs에 비해 많이 작습니다. 
 ![GitHub Advanced Security_Kor (2)](https://user-images.githubusercontent.com/40287191/119857448-8a163e80-bf4e-11eb-9c57-f95b0773e733.png)
 
 <br/>
 <br/>
 <br/>
 
-# GitHub은 소프트웨어 개발 주기 전반에 걸친 보안을 강화합니다. 
+## GitHub은 소프트웨어 개발 주기 전반에 걸친 보안을 강화합니다. 
 
-## How 1. 먼저 의존성 부터 확인 합니다. 
-<details><summary>🔍</summary>
-<p>
+### How 1. 먼저 의존성 부터 확인 합니다. 
 
 * 프로젝트가 의존하고 있는 의존성은 어떤것이 있지? 🤔 : [Dependency Graph](https://github.com/doosanbear/Demo-webgoatm/network/dependencies)  
   
@@ -86,15 +74,9 @@ has_children: true
    * GitHub은 [CVE를 직접 발행할 수 있는 인증기관](https://github.blog/2019-09-18-securing-software-together/#github-is-now-a-cve-numbering-authority) (CNA: CVE Numbering Authority)
    * [NVD(National Vulnerability Database), Community Sources](https://github.blog/2019-09-18-securing-software-together/)
 
-   
-</p>
-</details>
-
 <br>
 
-## How 2. Code를 작성할 때 들어갈 수 있는 위협요소를 분석합니다. :
-<details><summary>🔍</summary>
-<p>
+### How 2. Code를 작성할 때 들어갈 수 있는 위협요소를 분석합니다. 
 
    * **GitHub + Semmle**
    ![GitHub Advanced Security - issc29](https://user-images.githubusercontent.com/40287191/120106398-bf619d00-c197-11eb-8324-01691841a262.png)
@@ -128,15 +110,10 @@ has_children: true
   
    * [CodeQL은 Microsoft, Google, Uber등에서 분석을 위해 사용됩니다.](slide/codeql_customer.md) 
 
-   </p>
-</details>
-
 <br>
 
-## How 3. Code 작성시 실수로 Push되는 Credential을 자동으로 검출합니다. 
-<details><summary>🔍</summary>
-<p>
-   
+### How 3. Code 작성시 실수로 Push되는 Credential을 자동으로 검출합니다. 
+ 
    * [Secret Scanning](https://github.com/octodemo/demo-vulnerabilities-ghas/security/secret-scanning)
  
    * [현재 37개 패턴 coverage](https://docs.github.com/en/enterprise-server@latest/code-security/secret-security/about-secret-scanning#about-secret-scanning-for-private-repositories)
@@ -149,39 +126,25 @@ has_children: true
    
    * Secret Scanning alert를 볼 수 있는 권한은 [Org의 Owner/저장소의 Admin이 추가/삭제 가능](https://docs.github.com/en/enterprise-server@latest/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#granting-access-to-security-alerts)
    
-   
-</p>
-</details>
 
 <br>
 
-## How 4. 전체적인 보안 상태를 확인할 수 있습니다. 
-<details><summary>🔍</summary>
-<p>
-   
+### How 4. 전체적인 보안 상태를 확인할 수 있습니다. 
+ 
    * Org Owner는 [Security Center](https://github.com/orgs/johnjohncom/security)에서 조직 레벨의 전체 상태를 확인할 수 있습니다 (currently beta on GHEC)
      - [Team level Security center](https://github.com/orgs/johnjohncom/teams/team1/security)
-   
-</p>
-</details>
 
 <br>
 
-## How 5. Policy를 설정 합니다. 
-<details><summary>🔍</summary>
-<p> 
-   
+### How 5. Policy를 설정 합니다. 
+  
    * [Org에 대해 Advanced Security 강제화](https://docs.github.com/en/enterprise-server@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise#enforcing-a-policy-for-advanced-security-features)
    
    * [Policy.md 파일 설정](https://github.com/doosanbear/Demo-webgoatm/security/policy)
    
-
-</p>
-</details>
-
 <br>
 
-## 자료
+### 기타 자료 링크
 - [CodeQL Document](https://codeql.github.com/docs/)
 - [CodeQL query help](https://codeql.github.com/codeql-query-help/)
 - [push a GitHub Actions workflow to multiple repositories](https://github.com/jhutchings1/Create-ActionsPRs)

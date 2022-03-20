@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 ---
 
-# GitHub Actions란
+## GitHub Actions란
 ![image](https://user-images.githubusercontent.com/40287191/121128830-fa826100-c866-11eb-80be-55502d6a757f.png)
 - GA on GHES version 3.0
 - GitHub플랫폼과 통합된 CI/CD환경
@@ -18,12 +18,12 @@ has_children: true
 - Built-in secret store
 - Easy to write, easy to share
 
-# GitHub Actions는 커뮤니티 🧑‍🤝‍🧑 기반으로 함께 성장합니다. 
+## GitHub Actions는 커뮤니티 🧑‍🤝‍🧑 기반으로 함께 성장합니다. 
 - GitHub Actions는 큰 특징 중 하나는 커뮤니티 기반이라는 점 입니다. Actions들이 커뮤니티에 공유되어 있고, 필요한 Actions들을 검색하여 찾아 선언만으로 쉽게 사용할 수 있습니다. 
 - 현재 [GitHub Marketplace에 8,000여개 이상의 Actions](https://github.com/marketplace?type=actions)들이 공유되어 있습니다. (Jun 2021 기준)
 
 
-# Example Actions
+## Example Actions
 
    - https://github.com/actions/starter-workflows
      - GitHub.com의 'actions' org에서 제공하는 starter 입니다.

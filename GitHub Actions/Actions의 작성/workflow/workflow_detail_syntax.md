@@ -7,7 +7,7 @@ nav_order: 4
 ---
 
 
-# [Workflow syntax](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-syntax-for-github-actions) 
+## [Workflow syntax](https://docs.github.com/en/enterprise-server@latest/actions/reference/workflow-syntax-for-github-actions) 
 
 
 

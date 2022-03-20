@@ -3,13 +3,13 @@ layout: default
 title: Troubleshooting, log파일
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
-nav_order: 3
+nav_order: 5
 ---
 
 
-# Troublshooting, 로그파일
+## Troublshooting, 로그파일
 
-## [GitHub Actions Troubleshooting](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise) 
+### [GitHub Actions Troubleshooting](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise) 
   
    - GHES에 Self-signed certificate 사용시 Self-hosted 러너 등록 : GHES는 공인된 기관에서 서명된 공인 인증서의 사용이 강력히 권장되지만, self-signed 인증서를 사용할 때 방법이 설명되어 있습니다. 
   
@@ -82,7 +82,7 @@ nav_order: 3
   
         - `ghe-actions-check`을 실행하여 Actions의 상태를 확인합니다. 
   
-## [Self-hosted 러너 Troublshooting, 로그파일](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners)
+### [Self-hosted 러너 Troublshooting, 로그파일](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners)
   
    - [Self-hoste runner 상태 확인](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners#checking-the-status-of-a-self-hosted-runner) : idle, Action, Offline
   

@@ -6,7 +6,7 @@ grand_parent: GitHub Actions란
 nav_order: 6
 ---
 
-# Scheduled workflow들의 불필요한 실행 방지
+## Scheduled workflow들의 불필요한 실행 방지
   
    - 불필요한 workflow의 실행을 방지하기 위해, scheduled workflow들은 자동으로 disable될 수 있습니다. 
   

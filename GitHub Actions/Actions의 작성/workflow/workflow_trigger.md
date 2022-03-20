@@ -8,11 +8,11 @@ nav_order: 3
 
 
 
-# [Workflow Trigger Events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows)
+## [Workflow Trigger Events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows)
 
 ### 워크플로우는 GitHub Enterprise의 특정 이벤트로, 스케쥴한 시간에, 수동으로, 또는 외부에서의 이벤트에 의해 트리거 될 수 있습니다. 
 
-### [1. Configuring workflow events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows#configuring-workflow-events)
+[1. Configuring workflow events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows#configuring-workflow-events)
 
    
    ```
@@ -41,12 +41,9 @@ nav_order: 3
       types: # This configuration does not affect the page_build event above
         - created
    ```
- 
-<br/>
- 
 
 
-### [2. Scheduled events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows#scheduled-events)
+[2. Scheduled events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows#scheduled-events)
  
    ```
     on:
@@ -56,10 +53,7 @@ nav_order: 3
    
    ```
 
-<br/>
- 
-
-### [3. Manual events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows#manual-events)
+[3. Manual events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows#manual-events)
  
    - `workflow_dispatch` : 수동으로 트리거
    
@@ -76,11 +70,7 @@ nav_order: 3
         types: [opened, deleted]
     
 
-<br/>
- 
-
-
-### [4. Webhook events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows#webhook-events)
+[4. Webhook events](https://docs.github.com/en/enterprise-server@latest/actions/reference/events-that-trigger-workflows#webhook-events)
  
    - GitHub Enterprise에서 발생하는 웹훅이벤트에 의해 트리거
    

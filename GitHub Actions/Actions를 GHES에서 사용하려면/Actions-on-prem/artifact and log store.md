@@ -7,7 +7,7 @@ nav_order: 4
 ---
 
 
-# Artifacts와 로그 저장 정책
+## Artifacts와 로그 저장 정책
     
    - artifact와 로그의 저장 기간은 [저장소별](https://docs.github.com/en/enterprise-server@latest/github/administering-a-repository/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-repository), [조직별](https://docs.github.com/en/enterprise-server@latest/organizations/managing-organization-settings/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-organization), 그리고 [enterprise에](https://docs.github.com/en/enterprise-server@latest/github/setting-up-and-managing-your-enterprise/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-enterprise-account) 대해 설정할 수 있습니다. 
     

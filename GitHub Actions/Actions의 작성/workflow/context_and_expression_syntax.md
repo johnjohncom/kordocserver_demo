@@ -8,7 +8,7 @@ nav_order: 9
 
 
 
-# [Context and expression syntax ](https://docs.github.com/en/enterprise-server@latest/actions/reference/context-and-expression-syntax-for-github-actions)
+## [Context and expression syntax ](https://docs.github.com/en/enterprise-server@latest/actions/reference/context-and-expression-syntax-for-github-actions)
 
 ### 1. Expression 
    - Workflow 파일들 내에서 각종 변수들을 선언하거나 context에 접근하는 등의 프로그램 처리를 할 수 있습니다. 

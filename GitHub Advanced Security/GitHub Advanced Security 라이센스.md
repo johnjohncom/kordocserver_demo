@@ -8,15 +8,13 @@ nav_order: 3
 
 
 ## License 🧮
-<details><summary>🔍</summary>
-<p>
    
 * GitHub Enterprise외 추가 비용없음 
    - Dependency Graph
    - Dependabot Alert
    - Dependabot Security Update
 
-* 별도 라이센스 : GHAS license
+* 별도 라이센스가 필요한 기능 : GHAS license
    - Code Scanning
    - Secret Scanning
 
@@ -41,8 +39,5 @@ nav_order: 3
    
   - Committer가 초과 시: 기존에 enable된 저장소들은 계속 추가적인 committer 허용// 신규 저장소들은 GHAS가 disable된 상태로 생성됨, GHAS가 enable되지 않았던 기존 저장소들도 GHAS의 enable버튼이 비활성화
   
-   
-</p>
-</details>
 
 <br>

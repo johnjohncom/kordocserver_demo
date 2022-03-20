@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 
-# [Metadata syntax](https://docs.github.com/en/enterprise-server@latest/actions/creating-actions/metadata-syntax-for-github-actions)
+## [Metadata syntax](https://docs.github.com/en/enterprise-server@latest/actions/creating-actions/metadata-syntax-for-github-actions)
 
 1. 메타 데이터 파일은 `action.yml` 또는 `action.yaml` 이라는 파일 이름을 가져야 합니다. 
 
@@ -24,7 +24,6 @@ nav_order: 3
    runs | **Required** action의 코드와 코드를 실행하는 필요한 어플리케이션에 대한 경로 설정 
    branding | 자신의 action을 구분할 수 있도록 특정 색깔과 Feather 아이콘을 사용해 뱃지를 생성. 뱃지는 GitHub Marketplace에서 action이름의 옆에 보여짐. 
 
-<br>
 
 4. input
 
@@ -36,7 +35,6 @@ nav_order: 3
      `inputs.<input_id>.default` | **Optional** 사용할 기본값 설정 `string`. 워크플로우에 input 파라미터가 지정되지 않았을 때 사용
      `inputs.<input_id>.deprecationMessage` | **Optional** warning메세지로 logging되는 `string`. 이 warning메세지를 사용해 사용자에게 input이 deprecated되었고, 다른 대안들을 언급하는데 사용할 수 있음. 
 
-<br>
 
 5. output
 
@@ -52,7 +50,6 @@ nav_order: 3
       `outputs` | **Optional** `output`은 `outputs.<output_id>`와 `outputs.<output_id>.description`과 같은 파라미터 사용하지만, `value`토큰을 포함 <pre>outputs:<br>  random-number:<br>    description: "Random number"<br>    value: ${{ steps.random-number-generator.outputs.random-id }}<br>runs:<br>  using: "composite"<br>  steps:<br>    - id: random-number-generator<br>      run: echo "::set-output name=random-id::$(echo $RANDOM)"<br>      shell: bash </pre>
       `outputs.<output_id>.value` | **Required** action이 해당 input 파라미터가 요구되는지에 대한 `boolean` 값. 반드시 요구될 때 `true` 로 설정
    
-<br>
 
 6. `runs` for Javascript action
 
@@ -66,7 +63,6 @@ nav_order: 3
      `post` | **Optional** `main:` action이 완료되면 job의 마지막에 실행될 스크립트. 예를 들어, 특절 프로세스를 종료하거나 불필요한 파일을 삭제. `using`에서 지정된 어플리케이션이 이 파일을 실행. <pre>runs:<br>  using: 'node12'<br>  main: 'index.js'<br>  post: 'cleanup.js'</pre>
      `post-if` | **Optional** `post:` action 실행을 위한 조건을 설정. `post:` action은 `post-if`의 조건이 부합할 때만 실행됨. <br> - example: `cleanup.js` 는 Linux-based 러너에서만 실행됨 <pre> post: 'cleanup.js'<br> post-if: runner.os == 'linux'</pre>
 
-<br>
 
 7. `runs` for composite run steps action
 
@@ -82,7 +78,6 @@ nav_order: 3
    `runs.steps[*].env` | **Optional** 해당 step에 대한 environment variable의 `map` 설정. 워크플로우에 저장된 environment variable을 수정하려면, composite 실행 step에서 `echo "{name}={value}" >> $GITHUB_ENV` 사용
    `runs.steps[*].working-directory` | **Optional** command가 실행되는 working 디렉토리 설정  
    
-<br>
 
 8. `runs` for Docker action
 
