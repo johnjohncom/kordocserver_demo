@@ -17,7 +17,7 @@ has_children: true
 <img src="https://user-images.githubusercontent.com/40287191/121185766-5f5aad00-c8a1-11eb-9af2-57ef2ec38254.png">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/40287191/121161933-6b864080-c888-11eb-87a4-eae91b4a7210.png">  
 
 
-### 1. GitHub-hosted Runner vs. Self-hosted Runner
+## GitHub-hosted Runner vs. Self-hosted Runner
 
 <table>
     <thead>
