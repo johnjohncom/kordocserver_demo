@@ -89,13 +89,13 @@ nav_order: 2
      ![image](https://user-images.githubusercontent.com/40287191/121207836-8e2e4e80-c8b4-11eb-9d87-fef26c1f8336.png)
 
  
-  9. [Self-hosted Runner와 GHES사이의 Communication](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/about-self-hosted-runners#communication-between-self-hosted-runners-and-github-enterprise-server)
+  9. [Self-hosted Runner와 GHES사이의 Communication](https://docs.github.com/en/enterprise-server@latest/enterprise-server@latest/actions/hosting-your-own-runners/about-self-hosted-runners#communication-between-self-hosted-runners-and-github-enterprise-server)
      - HTTPS 프로토콜을 통한 통신
      - Self Hosted Runner는 Jobs에 대한 정보를 주고받기 위해 GitHub과 통신
      - Self Hosted Runner에 “GitHub Action Runner Application”이 설치되어 실행되어야 GitHub으로 부터 Action의 Job들을 수신하여 실행 할 수 있음
     
     
-  10. [Self-hosted Runner의 인터넷 연결](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#communication-between-self-hosted-runners-and-github)
+  10. [Self-hosted Runner의 인터넷 연결](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/about-self-hosted-runners#communication-between-self-hosted-runners-and-github)
       - Self-hosted Runner는 아래와 같은 용도로 인터넷 연결이 필요합니다. 
         - Self-hosted Runner application update 
         - GitHub.com의 Actions download
@@ -104,7 +104,7 @@ nav_order: 2
       - Self-hosted Runner가 인터넷 연결이 불가할 시, 인터넷이 가능한 곳에서 다운로드하여 [수동으로 사용할 수 있는 방법](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/managing-access-to-actions-from-githubcom/setting-up-the-tool-cache-on-self-hosted-runners-without-internet-access)을 제공합니다.
   
  
-  11. [Self-hosted Runner 어플리케이션의 업그레이드](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
+  11. [Self-hosted Runner 어플리케이션의 업그레이드](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
      
       - Self-hosted Runner 어플리케이션은 새로운 버젼이 출시되면, Job이 러너에 할당 될 때 자동으로 업데이트 합니다.
       
@@ -124,10 +124,10 @@ nav_order: 2
         <img src="https://user-images.githubusercontent.com/40287191/121277586-dfb5f800-c90b-11eb-956a-9c6feb1a36cd.png" width="300" height="200">
 
   
-   13. Self-hosted Runner는 30일 이상 GitHub Action과 연결되지 않으면 [자동으로 삭제됩니다](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners). 
+   13. Self-hosted Runner는 30일 이상 GitHub Action과 연결되지 않으면 [자동으로 삭제됩니다](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners). 
   
  
-   14. [사용량 최대치 limit](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits)
+   14. [사용량 최대치 limit](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/about-self-hosted-runners)
   
         항목 | 최대치
         --|--

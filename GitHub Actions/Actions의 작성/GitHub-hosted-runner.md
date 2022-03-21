@@ -13,7 +13,7 @@ nav_order: 1
      - [Mac 러너](https://docs.github.com/en/enterprise-server@latest/actions/using-github-hosted-runners/about-github-hosted-runners#cloud-hosts-for-github-hosted-runners) : GitHub 자체 macOS Cloud
    
 
-  2. [GitHub-hosted Runner 과금](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#about-billing-for-github-actions)
+  2. [GitHub-hosted Runner 과금](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-billing-for-github-actions/about-billing-for-github-actions#about-billing-for-github-actions)
      - GitHub Enterprise는 기본적으로 **월별 50,000분/50GB Storage**(Actions/Packages용도)가 포함되어 있습니다. 
    
      - 초과되는 사용량에 대해서 아래와 같이 분당 ⏰ 과금됩니다. 
@@ -32,7 +32,7 @@ nav_order: 1
   
   3. GitHub-hosted Runner 지원 OS 
      
-     - 아래의 표와 같이 [지원되는 OS](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources)가 있습니다. 
+     - 아래의 표와 같이 [지원되는 OS](https://docs.github.com/en/enterprise-cloud@latest/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources)가 있습니다. 
     
       <img src="https://user-images.githubusercontent.com/40287191/121195196-5ae6c200-c8aa-11eb-8bcb-5648f677d4e6.png" width="450" height="250">
 
@@ -57,7 +57,7 @@ nav_order: 1
 
   6. 사용량 최대치 limit
   
-     - GitHub-hosted runner를 사용할 때 아래와 같은 [사용량의 한계](https://docs.github.com/en/actions/reference/usage-limits-billing-and-administration#usage-limits)가 정해져 있습니다. (이 내용은 변경될 수 있습니다)
+     - GitHub-hosted runner를 사용할 때 아래와 같은 [사용량의 한계](https://docs.github.com/en/enterprise-cloud@latest/actions/reference/usage-limits-billing-and-administration#usage-limits)가 정해져 있습니다. (이 내용은 변경될 수 있습니다)
 
         항목 | 최대치
         --|--
