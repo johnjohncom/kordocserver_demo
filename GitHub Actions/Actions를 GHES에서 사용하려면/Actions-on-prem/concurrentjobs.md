@@ -12,8 +12,8 @@ nav_order: 1
   - 동시에 실행될 최대 Job 갯수가 몇개 정도일지 예상, 혹은 차츰 확산시켜 가며 적절한 vCPU와 Mem의 할당이 필요합니다. 
   - [GitHub Help 설명링크](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-enterprise-server#review-hardware-requirements)
 
-  vCPUs| Memory	| Maximum | Concurrency
-  --|--|--|--
+  vCPUs| Memory	| Maximum Concurrency
+  --|--|--|
   8	| 64 GB	|300 jobs
   16| 128 GB|700 jobs
   32| 160 GB|1500 jobs

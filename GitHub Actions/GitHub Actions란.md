@@ -7,7 +7,7 @@ has_children: true
 
 ## GitHub Actions란
 ![image](https://user-images.githubusercontent.com/40287191/121128830-fa826100-c866-11eb-80be-55502d6a757f.png)
-- GA on GHES version 3.0
+- GA on GHES version 3.0 
 - GitHub플랫폼과 통합된 CI/CD환경
 - 모든 GitHub Event에 대응하는 워크플로우개발
 - 워크 플로우의 커뮤니티 공동 개발 및 활용
