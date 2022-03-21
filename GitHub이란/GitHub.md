@@ -68,7 +68,9 @@ has_children: true
 ### GitHub은 전세계 오픈소스 프로젝트가 함께 협력하고 개발하는 곳입니다. 
 ![image](https://user-images.githubusercontent.com/40287191/120288730-82162000-c2fb-11eb-8b46-80b6aeb53e1c.png)
 
-![image](https://user-images.githubusercontent.com/40287191/120301317-b1328e80-c307-11eb-9dec-d602b904070d.png) ![image](https://user-images.githubusercontent.com/40287191/120301403-c7d8e580-c307-11eb-81b2-c1f1a94efbb5.png)
+![image](https://user-images.githubusercontent.com/40287191/120301317-b1328e80-c307-11eb-9dec-d602b904070d.png) 
+
+![image](https://user-images.githubusercontent.com/40287191/120301403-c7d8e580-c307-11eb-81b2-c1f1a94efbb5.png)
 
 ### GitHub 워크플로우 : Pull Request를 통한 개발자들간의 피어리뷰와 협업
 
