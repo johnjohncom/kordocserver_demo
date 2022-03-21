@@ -109,7 +109,7 @@ nav_order: 1
        Composite run steps	| Linux, macOS, Windows
     
     - ℹ️ 메타데이터 파일(`action.yml`, `action.yaml` ) [syntax 참조](https://docs.github.com/en/enterprise-server@latest/actions/creating-actions/metadata-syntax-for-github-actions)
-       - [Syntax 설명](actions_metadata.md)
+       - [Syntax 설명](/Actions.yml파일.md)
 
 <br/>
 
