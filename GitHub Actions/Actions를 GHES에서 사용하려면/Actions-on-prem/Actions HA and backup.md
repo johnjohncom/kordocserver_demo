@@ -3,7 +3,7 @@ layout: default
 title: Actions 이중화, 백업
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
-nav_order: 3
+nav_order: 4
 ---
 
 

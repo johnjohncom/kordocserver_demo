@@ -3,7 +3,7 @@ layout: default
 title: 인터넷연결이 불가한 경우 수동으로 외부 Actions사용방법
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
-nav_order: 2
+nav_order: 3
 ---
 
 ## Connect설정 및 Self-hosted 러너의 인터넷 연결이 불가한 경우, 수동으로 아래 툴을 통해서 사용

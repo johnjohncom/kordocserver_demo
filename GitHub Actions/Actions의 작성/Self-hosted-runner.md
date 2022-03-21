@@ -90,6 +90,7 @@ nav_order: 2
 
  
   9. [Self-hosted Runner와 GHES사이의 Communication](https://docs.github.com/en/enterprise-server@latest/enterprise-server@latest/actions/hosting-your-own-runners/about-self-hosted-runners#communication-between-self-hosted-runners-and-github-enterprise-server)
+    
      - HTTPS 프로토콜을 통한 통신
      - Self Hosted Runner는 Jobs에 대한 정보를 주고받기 위해 GitHub과 통신
      - Self Hosted Runner에 “GitHub Action Runner Application”이 설치되어 실행되어야 GitHub으로 부터 Action의 Job들을 수신하여 실행 할 수 있음

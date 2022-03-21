@@ -3,7 +3,7 @@ layout: default
 title: Troubleshooting, log파일
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
-nav_order: 5
+nav_order: 6
 ---
 
 

@@ -39,7 +39,7 @@ nav_order: 1
 
   4. GitHub-hosted Runner 사전 설치된 소프트웨어
    
-     - [OS별 사전 설치된 소프트웨어 확인](https://docs.github.com/en/enterprise-server@latest/actions/using-github-hosted-runners/about-github-hosted-runners#preinstalled-software)
+     - [OS별 사전 설치된 소프트웨어 확인](https://docs.github.com/en/enterprise-cloud@latest/actions/using-github-hosted-runners/about-github-hosted-runners#preinstalled-software)
     
      - 예: Ubuntu 20.04 LTS
       
@@ -50,7 +50,7 @@ nav_order: 1
 
   5. IP address of GitHub-hosted runner
   
-     - GitHub-hosted runner를 위해 Actions가 사용하는 IP address range는 [GitHub REST API](https://docs.github.com/en/enterprise-server@latest/rest/reference/meta#get-github-meta-information)로 확인 가능 : https://api.github.com/meta
+     - GitHub-hosted runner를 위해 Actions가 사용하는 IP address range는 [GitHub REST API](https://docs.github.com/en/enterprise-server@latest/rest/reference/meta#get-github-meta-information)로 확인 가능 : [https://api.github.com/meta](https://api.github.com/meta)
 
      * `Note`: If you use an `IP address allow list` for your GitHub organization or enterprise account, you cannot use GitHub-hosted runners and must instead use self-hosted runners. 
  

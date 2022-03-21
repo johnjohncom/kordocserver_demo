@@ -3,7 +3,7 @@ layout: default
 title: 외부 Actions사용을 위한 설정
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
-nav_order: 1
+nav_order: 2
 ---
 
 
