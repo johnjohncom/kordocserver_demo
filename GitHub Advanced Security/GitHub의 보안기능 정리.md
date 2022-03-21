@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GitHub Advanced Security를 적용하면
+title: GitHub의 보안기능들
 parent: GitHub Advanced Security란
 nav_order: 1
 ---
