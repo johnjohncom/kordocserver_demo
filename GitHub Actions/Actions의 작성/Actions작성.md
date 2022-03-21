@@ -302,7 +302,7 @@ nav_order: 1
  
    1. ⚙️ [Workflow 파일 구조](/workflow/workflow_file_component.md)
    
-   2. [Workflow 파일 템플릿 : 조직내 워크플로우 공유](/workflow/workflow_template.mdd) 📔
+   2. [Workflow 파일 템플릿 : 조직내 워크플로우 공유](/workflow/workflow_template.md) 📔
    
    3. [Workflow 트리거](/workflow/workflow_trigger.md) 🔫
    
