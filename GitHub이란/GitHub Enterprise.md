@@ -73,6 +73,7 @@ parent: GitHub이란
    - GitHub.com에 존재하는 GitHub Actions를 편리하게 사용
    - Unified Search : 온프렘에서 한번의 Search로 온프렘과 GitHub.com 모두의 결과를 동시에
    - Unified Contribution : 개발자 프로필에 온프렘의 기여 횟수를 표시
+
   <br>
 
 ### GitHub Codespace
@@ -86,6 +87,7 @@ parent: GitHub이란
   - GitHub.com의 개인 계정에 [dotfiles Repository](https://docs.github.com/en/enterprise-cloud@latest/codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account#dotfiles) 사용가능
   - GitHub Enterprise Organization의 Owner에 의한 [Codespace 사용 정책 설정](https://docs.github.com/en/enterprise-cloud@latest/codespaces/managing-codespaces-for-your-organization/enabling-codespaces-for-your-organization#enable-codespaces-for-users-in-your-organization) 가능
      - [Usage limit](https://docs.github.com/en/enterprise-cloud@latest/codespaces/managing-codespaces-for-your-organization/managing-billing-for-codespaces-in-your-organization#usage-limits) 설정
+     
 <br>  
 
 ### GitHub Mobile App
