@@ -2,7 +2,7 @@
 layout: default
 title: GitHub Advanced Security를 적용하면
 parent: GitHub Advanced Security란
-nav_order: 2
+nav_order: 3
 ---
 
 

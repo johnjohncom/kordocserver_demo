@@ -2,7 +2,7 @@
 layout: default
 title: CodeQL이란
 parent: GitHub Advanced Security란
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 
