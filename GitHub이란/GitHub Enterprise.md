@@ -25,7 +25,7 @@ parent: GitHub이란
      - [example3](https://github.com/exceeders/awesome-actions)
    - 📦 GitHub Packages : Artifactory 저장
      - [examples](https://github.com/github-packages-examples)
-   - 👮 [Security 기능](/GitHub Advanced Security/GitHub Advanced Security란.md) 
+   - 👮 [Security 기능](/GitHub Advanced Security/GitHub의 보안기능 정리.md) 
    - 📔 문서화 기능 : GitHub Pages, Wiki
      - Twitter OSS https://twitter.github.io/
      - NETFLIX OSS https://netflix.github.io/
