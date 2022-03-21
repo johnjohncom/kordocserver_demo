@@ -74,18 +74,7 @@ parent: GitHub이란
    - Unified Search : 온프렘에서 한번의 Search로 온프렘과 GitHub.com 모두의 결과를 동시에
    - Unified Contribution : 개발자 프로필에 온프렘의 기여 횟수를 표시
   <br>
-  
-### GitHub Mobile App
-  <img src="https://user-images.githubusercontent.com/40287191/120345536-852e0200-c335-11eb-84e7-ca365c153846.png" width="200" height="350">
-   
- - 모바일에 최적화된 GitHub의 모든 기능 편리하게 사용; Issue, Pull request.
- - GHES 지원
- - 편리한 검색과 결과 보기 : Users, Repos, Orgs, Issues, Pull Requests.
- - 언제 어디에 있든 Issues와 Pull Requests상에서 편리한 협업 : Comment, react, and merge code.
- - “Favorite Repos”, “Recently Viewed” sections 
-  
-<br>
-  
+
 ### GitHub Codespace
  ![image](https://user-images.githubusercontent.com/40287191/120346118-08e7ee80-c336-11eb-94d0-bc821c8baf22.png)
   
@@ -97,5 +86,14 @@ parent: GitHub이란
   - GitHub.com의 개인 계정에 [dotfiles Repository](https://docs.github.com/en/enterprise-cloud@latest/codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account#dotfiles) 사용가능
   - GitHub Enterprise Organization의 Owner에 의한 [Codespace 사용 정책 설정](https://docs.github.com/en/enterprise-cloud@latest/codespaces/managing-codespaces-for-your-organization/enabling-codespaces-for-your-organization#enable-codespaces-for-users-in-your-organization) 가능
      - [Usage limit](https://docs.github.com/en/enterprise-cloud@latest/codespaces/managing-codespaces-for-your-organization/managing-billing-for-codespaces-in-your-organization#usage-limits) 설정
-<br>
-<br>
+<br>  
+
+### GitHub Mobile App
+  <img src="https://user-images.githubusercontent.com/40287191/120345536-852e0200-c335-11eb-84e7-ca365c153846.png" width="200" height="350">
+   
+ - 모바일에 최적화된 GitHub의 모든 기능 편리하게 사용; Issue, Pull request.
+ - GHES 지원
+ - 편리한 검색과 결과 보기 : Users, Repos, Orgs, Issues, Pull Requests.
+ - 언제 어디에 있든 Issues와 Pull Requests상에서 편리한 협업 : Comment, react, and merge code.
+ - “Favorite Repos”, “Recently Viewed” sections 
+  
