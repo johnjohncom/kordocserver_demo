@@ -2,7 +2,7 @@
 layout: default
 title: Action 러너
 parent: GitHub Actions란
-nav_order: 2
+nav_order: 3
 ---
 
 
@@ -91,7 +91,7 @@ nav_order: 2
    
      - [OS별 사전 설치된 소프트웨어 확인](https://docs.github.com/en/enterprise-server@latest/actions/using-github-hosted-runners/about-github-hosted-runners#preinstalled-software)
     
-     - 예: Ubuntu 20.04 LTS 
+     - 예: Ubuntu 20.04 LTS
       
       <img src="https://user-images.githubusercontent.com/40287191/121188796-6b943980-c8a4-11eb-8cd7-9f935c4f033d.png" width="250" height="600">&nbsp;
       <img src="https://user-images.githubusercontent.com/40287191/121188890-81a1fa00-c8a4-11eb-9dd6-0f681770c4cc.png" width="250" height="600">&nbsp;  

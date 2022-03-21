@@ -2,7 +2,7 @@
 layout: default
 title: Action.yml파일
 parent: GitHub Actions란
-nav_order: 3
+nav_order: 4
 ---
 
 

@@ -2,7 +2,7 @@
 layout: default
 title: Actions의 GHES설정
 parent: GitHub Actions란
-nav_order: 4
+nav_order: 5
 has_children: true
 ---
 

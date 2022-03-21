@@ -2,7 +2,7 @@
 layout: default
 title: Actions작성
 parent: GitHub Actions란
-nav_order: 4
+nav_order: 1
 ---
 
 ## howto_Actions ✨
@@ -302,23 +302,23 @@ nav_order: 4
  
    1. ⚙️ [Workflow 파일 구조](/workflow/workflow_file_component.md)
    
-   2. [Workflow 파일 템플릿 : 조직내 워크플로우 공유](/GitHub Actions/Actions의 작성/workflow/workflow_template.mdd) 📔
+   2. [Workflow 파일 템플릿 : 조직내 워크플로우 공유](/workflow/workflow_template.mdd) 📔
    
-   3. [Workflow 트리거](/GitHub Actions/Actions의 작성/workflow/workflow_trigger.md) 🔫
+   3. [Workflow 트리거](/workflow/workflow_trigger.md) 🔫
    
-   4. [Workflow 파일 YAML 예제와 설명](/GitHub Actions/Actions의 작성/workflow/workflow_yaml_syntax.md) 📗
+   4. [Workflow 파일 YAML 예제와 설명](/workflow/workflow_yaml_syntax.md) 📗
    
-   5. [👷 Workflow 실행 관리](/GitHub Actions/Actions의 작성/workflow/workflow_manage.md)
+   5. [👷 Workflow 실행 관리](/workflow/workflow_manage.md)
    
-   6. [Workflow 내에서의 인증 : `GITHUB_TOKEN` 또는 PAT ](/GitHub Actions/Actions의 작성/workflow/workflow_authentication.md) 🔑
+   6. [Workflow 내에서의 인증 : `GITHUB_TOKEN` 또는 PAT ](/workflow/workflow_authentication.md) 🔑
 
    7. Workflow syntax, Workflow Command, Context/Expression Syntax
      
-      - ✅ [Workflow syntax](/GitHub Actions/Actions의 작성/workflow/workflow_detail_syntax.md)
+      - ✅ [Workflow syntax](/workflow/workflow_detail_syntax.md)
    
-      - [Workflow Commands](/GitHub Actions/Actions의 작성/workflow/workflow_commands.md)
+      - [Workflow Commands](/workflow/workflow_commands.md)
 
-      - [Context and expression syntax](/GitHub Actions/Actions의 작성/workflow/context_and_expression_syntax.md)
+      - [Context and expression syntax](/workflow/context_and_expression_syntax.md)
 
 <br/>
  
