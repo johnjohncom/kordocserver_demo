@@ -60,12 +60,12 @@ parent: GitHub이란
   
 ### GitHub Enterprise는 SaaS형 서비스 (GitHub Enterprise Cloud ☁️)와 온프렘 설치형 GitHub Enterprise Server 두 가지
   ![image](https://user-images.githubusercontent.com/40287191/122533534-a47a9e00-d05c-11eb-916b-01240a371e52.png)
-
+  <img src="/assets/images/github-enterprise.png">
   <br>
   
 ### GitHub Enterprise는 1➕1 : 👆 두가지 모두를 동시에 제공합니다.
   ![image](https://user-images.githubusercontent.com/40287191/120342476-cb359680-c332-11eb-86fa-5457ac2792d0.png)
-  
+
   <br>
   
 ### GitHub Enterprise Server로 유용한 정보를 다운로드 하여 편리하게 사용할 수 있습니다. : GitHub Connect
