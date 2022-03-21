@@ -7,8 +7,11 @@ nav_order: 2
 ## Team vs. Enterprise
 
 1. Team 라이센스 vs GitHub Enterprise 라이센스
-  - [GitHub Pricing 페이지](https://github.com/pricing)
+  - [GitHub Pricing 페이지](https://github.com/pricing) <br>
     <img src="/assets/images/GitHub_pricing.png" width="600" height="400">
+
+<br>
+<br>
 
 2. 비교
 
@@ -21,7 +24,11 @@ nav_order: 2
   Package storage | 2GB | 50GB | 추가스토리지 필요시 추가구매가능
   GitHub Seucirty and compliance기능 <br> - Code Scanning <br> - Secret Scanning <br> - Dependency review | Public저장소만 가능 | 모든 저장소 타입가능(GitHub Advanced Security별도라이센스 필요)|
   IP Allow list설정 | 미지원 | 지원 | Enterprise Cloud기능
+  Email notification을 회사도메인으로 제한 | 불가능 | 가능
+  'Internal' repository | 미지원 | 지원 |
+  Org의 Public저장소 생성 제한 | 불가능 | 가능
+  Org멤버들의 외부 Collaborator초대 제한 | 불가능 | 가능
   Audig log API | 미지원 | 지원
   Pre-received Hook | 미지원 | 지원 | Enteprise Server기능
-  Premium, Premium+ Support | 미지원 | 지원 |
+  Premium, Premium+ Support | 미지원 | 지원 | GitHub 글로벌 Support팀의 기술지원 티켓에 대한 우선순위
   Invoice Billing | 미지원 | 지원 |
