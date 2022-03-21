@@ -8,7 +8,7 @@ parent: GitHub이란
 
 
 
-## GitHub.com = GitHub Enterprise
+## GitHub.com = GitHub Enterprise + more
 
 
 ### 글로벌 GitHub.com의 서비스 플랫폼의 안정성, 확장성, 성능이 그대로 엔터프라이즈에 적용됩니다. 
@@ -25,7 +25,7 @@ parent: GitHub이란
      - [example3](https://github.com/exceeders/awesome-actions)
    - 📦 GitHub Packages : Artifactory 저장
      - [examples](https://github.com/github-packages-examples)
-   - 👮 [Security 기능](GitHub Advanced Security/GitHub Advanced Security란.md) 
+   - 👮 [Security 기능](/GitHub Advanced Security/GitHub Advanced Security란.md) 
    - 📔 문서화 기능 : GitHub Pages, Wiki
      - Twitter OSS https://twitter.github.io/
      - NETFLIX OSS https://netflix.github.io/
