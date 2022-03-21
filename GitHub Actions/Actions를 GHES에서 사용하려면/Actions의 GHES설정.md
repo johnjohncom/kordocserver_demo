@@ -46,9 +46,7 @@ has_children: true
    - 'Enable for all organizations' 또는 허용할 조직 👫 선택
    <img src="https://user-images.githubusercontent.com/40287191/121139336-9ade8280-c873-11eb-8567-bcc028a8dfef.png" width="600" height="550">
 
-  <br/>  
-  <br/>
-  <br/>  
+  <br/>    
     
   - 허용할 Actions 타입 선택
     
@@ -58,9 +56,7 @@ has_children: true
    
    <img src="https://user-images.githubusercontent.com/40287191/121136603-cdd34700-c870-11eb-8257-9fc9f530b5d1.png" width="800" height="500">
 
-  <br/>  
-  <br/>
-  <br/>  
+  <br/>    
     
    - Private folk로 부터의 Pull Requests에 의한 Workflow 실행 허용
   
@@ -77,7 +73,6 @@ has_children: true
    - Enterprise 및 Org 레벨의 Actions 관련 정책 설정과 동일한 설정 : 허용할 Actions 설정 및 Private folk로 부터의 PR에 의한 워크플로우 실행
 
 <br/>
-
 
 ## 3. GHES Actions 을 위한 구성요소 설명 🤖
 

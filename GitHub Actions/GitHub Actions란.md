@@ -25,19 +25,19 @@ has_children: true
 
 ## Example Actions
 
-   - https://github.com/actions/starter-workflows
+   - [https://github.com/actions/starter-workflows](https://github.com/actions/starter-workflows)
      - GitHub.com의 'actions' org에서 제공하는 starter 입니다.
      - ci, automation, code-scanning, icon등 다양한 분야의 예제 yml들이 폴더별로 정리되어 있습니다.
 
-   - https://github.com/orgs/actions-packages-examples
+   - [https://github.com/orgs/actions-packages-examples](https://github.com/orgs/actions-packages-examples)
      - 'actions-packages-examples' Org에도 매우 다양한 예제들이 존재합니다.
 
-   - https://github.com/octodemo/awesome-actions
+   - [https://github.com/octodemo/awesome-actions](https://github.com/octodemo/awesome-actions)
      - CI/CD외에 GitHub 자체의 각종 이벤트들을 활용한 다양한 예제들 입니다.
 
-   - https://github.com/actions/example-services
+   - [https://github.com/actions/example-services](https://github.com/actions/example-services)
      - job의 'container' 와 'service' 키워드를 활용한 사례 입니다.
 
-   - https://github.com/octodemo/advanced-security-java
+   - [https://github.com/octodemo/advanced-security-java](https://github.com/octodemo/advanced-security-java)
      - Code Scanning Action의 Java 예시 입니다.
 

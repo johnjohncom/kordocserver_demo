@@ -10,8 +10,7 @@ nav_order: 2
   - [GitHub Pricing 페이지](https://github.com/pricing) <br>
     <img src="/assets/images/GitHub_pricing.png" width="600" height="400">
 
-<br>
-<br>
+
 
 2. 비교
 
