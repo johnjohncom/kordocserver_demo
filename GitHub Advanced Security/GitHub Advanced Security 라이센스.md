@@ -39,5 +39,3 @@ nav_order: 4
    
   - Committer가 초과 시: 기존에 enable된 저장소들은 계속 추가적인 committer 허용// 신규 저장소들은 GHAS가 disable된 상태로 생성됨, GHAS가 enable되지 않았던 기존 저장소들도 GHAS의 enable버튼이 비활성화
   
-
-<br>

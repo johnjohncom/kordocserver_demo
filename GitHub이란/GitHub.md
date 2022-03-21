@@ -11,20 +11,20 @@ has_children: true
 ## Github은 전세계 개발자들의 Home 입니다. 
 
 <img src="https://user-images.githubusercontent.com/40287191/120283657-60ff0080-c2f6-11eb-967c-f2a046287607.png" />
-
+  - 여러분들만의 Octocat을 만들어 보세요: [myOctocat(myoctocat.com)](https://myoctocat.com/)
 <br>
 <br>
 
+   
 ## 1. Version control = Git
   
 ### Version control은 필요합니다. 
   
-  ![image](https://user-images.githubusercontent.com/40287191/120352922-3afc4f00-c33c-11eb-992b-38b1fe71f274.png) 
+  <img src="https://user-images.githubusercontent.com/40287191/120352922-3afc4f00-c33c-11eb-992b-38b1fe71f274.png" width="300" height="300">
 
 ### 다양한 도구 : Git, SVN, Perforce, Dimensions,,
 
 ### Git이 대세 ❓: 🙆‍♂️ 💯
-![image](https://user-images.githubusercontent.com/40287191/120289216-05d00c80-c2fc-11eb-8571-909610e4d93e.png) [link](https://www.openhub.net/repositories/compare)
 
    - 빠르고 간편
    - Cross-platform : Linux, Window, Mac
@@ -33,6 +33,8 @@ has_children: true
    - 오픈소스 커뮤니티의 de facto standard
    - **브랜치 모델**
    ![image](https://user-images.githubusercontent.com/40287191/120320139-cbc33280-c31c-11eb-8ad7-6298fb2129fa.png)
+
+<br>
 
 ### Git의 탄생 👶
   
@@ -96,14 +98,12 @@ has_children: true
    - [Paypal CaseStudy](http://paypal.github.io/InnerSourceCommons/assets/files/AdoptingInnerSource.pdf)
  
 ### 오픈소스 기업 및 프로젝트 
-   - 예)마이크로 소프트 https://github.com/microsoft
-   - 예)마이크로 소프트 Vcpkg 프로젝트 : https://github.com/microsoft/vcpkg
+   - 예)마이크로 소프트 [https://github.com/microsoft](https://github.com/microsoft)
+   - 예)마이크로 소프트 Vcpkg 프로젝트 : [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
    - [Issues 및 Pull Request](https://github.com/microsoft/vcpkg/issues/18170)
    - [Discussions](https://github.com/microsoft/vcpkg/discussions)
    - [Project](https://github.com/orgs/microsoft/projects)
 
-<br>
-<br>
 
 
 

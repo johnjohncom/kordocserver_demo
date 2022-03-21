@@ -26,7 +26,7 @@ nav_order: 5
    - 이미 GHES 사용중
      - Trial Enable된 라이센스를 기존 Enterprise Account의 라이센스 다운받는 곳에서 다운로드하여 적용
    - 사용중이 아니시면,
-     - Trial 라이센스를 신청하신 admin분의 이메일로 전송 -> GHES설치하고 trial 라이센스 적용 
+     - Trial 라이센스를 신청하신 admin분의 이메일로 GHES로 라이센스 다운받으실 보안 초대링크 전송 -> GHES설치하고 trial 라이센스 적용 
    
 * 기간: 4Weeks
  * 사용방법 /매주 1~2회 call하면서 함께 진행
