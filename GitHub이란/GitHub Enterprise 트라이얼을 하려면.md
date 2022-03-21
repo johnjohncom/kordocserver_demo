@@ -9,7 +9,7 @@ parent: GitHub이란
 ## GitHub Enterprise Trial
 
   
-### 두가지 방법 : GitHub Enterprise Cloud, 또는 GitHub Enterprise Server
+### 두가지 방법 : GitHub Enterprise Cloud, 또는 GitHub Enterprise Server (온프렘 직접 설치)
   
 ### GitHub Enterprise Cloud 트라이얼
    - 30일, 50seat 🧑‍🤝‍🧑 (더 많은 seat필요시 Contact GitHub Sales 📱)

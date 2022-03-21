@@ -77,18 +77,21 @@ nav_order: 4
      ```
   
     - Tag
+     
      ```
      steps:
        - uses: actions/javascript-action@v1.0.1
      ```
   
     - branch
+     
      ```
      steps:
        - uses: actions/javascript-action@v1-beta
      ```
   
     - SHA
+     
      ```
      steps:
        - uses: actions/javascript-action@172239021f7ba04fe7327647b213799853a9eb89
@@ -297,7 +300,7 @@ nav_order: 4
 
 ### 3. Workflow 파일 ♾️
  
-   1. ⚙️ [Workflow 파일 구조](/GitHub Actions/Actions의 작성/workflow/workflow_file_component.md)
+   1. ⚙️ [Workflow 파일 구조](/workflow/workflow_file_component.md)
    
    2. [Workflow 파일 템플릿 : 조직내 워크플로우 공유](/GitHub Actions/Actions의 작성/workflow/workflow_template.mdd) 📔
    

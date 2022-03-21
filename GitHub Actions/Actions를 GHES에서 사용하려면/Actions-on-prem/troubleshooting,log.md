@@ -31,8 +31,7 @@ nav_order: 5
         
        - Overall system health의 CPU와 메모리 사용량에 따라 [CPU, 메모리 용량 증설](https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/increasing-cpu-or-memory-resources) 고려 
      
-       <br>
-     
+
      - 2. 만약, CPU, 메모리 사용량에 문제가 없다면, Nomad Job 섹션에서 "CPU Percent Value"와 "Memory Usage" 그래프 확인
         - Actions와 관련된 아래 서비스들 확인
           ```
@@ -45,8 +44,7 @@ nav_order: 5
           ```
         - 이러한 서비스들 중, CPU 100%에 근접하거나 메모리가 최대치(2GB by default)에 근접하는 것이 있다면, 리소스 할당을 증가할 필요가 있습니다. 
   
-       <br>
-  
+
      - 3. 최대치에 근접한 서비스들에 대한 리소스 할당량 증가
         - SSH 관리 콘솔로 GHES 인스턴스에 접속
         - 아래 명령어로 추가 할당 가능한 리소스 확인

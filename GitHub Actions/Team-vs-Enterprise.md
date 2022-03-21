@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GitHub Team라이센스 vs GitHub Enterprise 차이
+title: GitHub Team vs GitHub Enterprise 차이
 nav_order: 2
 ---
 
