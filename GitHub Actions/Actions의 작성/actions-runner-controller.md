@@ -105,6 +105,7 @@ nav_order: 4
 
 7. [GHES경우 env set](https://github.com/actions-runner-controller/actions-runner-controller#github-enterprise-support)
 
+
 8. [Deploy Runner](https://github.com/actions-runner-controller/actions-runner-controller#usage) 
   
    - runnerdeploy.yaml파일 예제
@@ -124,7 +125,7 @@ nav_order: 4
 
 9. [Horizontal Scale 설정](https://github.com/actions-runner-controller/actions-runner-controller#webhook-driven-scaling)
 
-  - `HorizontalRunnerAutoscaler` 의 hra.yaml파일 예제
+   - `HorizontalRunnerAutoscaler` 의 hra.yaml파일 예제
 
      ```
      kind: HorizontalRunnerAutoscaler
