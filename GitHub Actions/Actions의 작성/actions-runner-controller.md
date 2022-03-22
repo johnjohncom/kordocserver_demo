@@ -77,7 +77,9 @@ nav_order: 4
      ````
      helm upgrade --install -f values.yaml -n actions-runner-system actions-runner-controller actions-runner-controller/actions-runner-controller
      ````
-    - value.yaml예
+  
+   - value.yaml예
+   
      ```
      authSecret:
       github_app_id: 3
@@ -102,8 +104,9 @@ nav_order: 4
 7. [GHES경우 env set](https://github.com/actions-runner-controller/actions-runner-controller#github-enterprise-support)
 
 8. [Deploy Runner](https://github.com/actions-runner-controller/actions-runner-controller#usage) 
+  
    - runnerdeploy.yaml파일 예제
-   
+
      ```
      kind: RunnerDeployment
      metadata:
