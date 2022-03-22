@@ -54,7 +54,6 @@ nav_order: 4
 3. [GitHub App 또는 PAT 생성 및 알맞은 권한 설정](https://github.com/actions-runner-controller/actions-runner-controller#setting-up-authentication-with-github-api)
 
 4. Create Name Space
-
   ```
   kubectl create ns actions-runner-system
   ```
