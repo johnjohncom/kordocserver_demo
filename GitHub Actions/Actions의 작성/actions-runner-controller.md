@@ -63,6 +63,7 @@ nav_order: 4
 
   <img src="https://user-images.githubusercontent.com/230145/78968805-71777900-7b40-11ea-97e6-55c48dfc44ac.png">
 
+
 6. Actions-runner-controller install (for Helm: value.yaml)
    - Kubernetes deployment
      ```
@@ -74,9 +75,10 @@ nav_order: 4
      ```  
    
    - Helm deployment를 위해서는 yaml파일(value.yaml) 필요 
-     ````
+    
+     ```
      helm upgrade --install -f values.yaml -n actions-runner-system actions-runner-controller actions-runner-controller/actions-runner-controller
-     ````
+     ```
   
    - value.yaml예
    
