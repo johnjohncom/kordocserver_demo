@@ -103,6 +103,7 @@ nav_order: 4
 
 8. [Deploy Runner](https://github.com/actions-runner-controller/actions-runner-controller#usage) 
    - runnerdeploy.yaml파일 예제
+   
      ```
      kind: RunnerDeployment
      metadata:
