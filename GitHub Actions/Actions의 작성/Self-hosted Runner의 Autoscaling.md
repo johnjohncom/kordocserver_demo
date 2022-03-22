@@ -4,6 +4,7 @@ title: Self Hosted Runner의 Autoscaling방법
 parent: Action 러너
 grand_parent: GitHub Actions란
 nav_order: 3
+has_chidren: true
 ---
 
 ## [Self-hosted Runner의 Autoscaling](https://docs.github.com/en/enterprise-server@latest/actions/hosting-your-own-runners/autoscaling-with-self-hosted-runners)
