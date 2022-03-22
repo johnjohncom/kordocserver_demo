@@ -58,8 +58,10 @@ nav_order: 4
   ```
   kubectl create ns actions-runner-system
   ```
+
 5. [Create GitHub App Secret](https://github.com/actions-runner-controller/actions-runner-controller#deploying-using-github-app-authentication)
   <img src="https://user-images.githubusercontent.com/230145/78968805-71777900-7b40-11ea-97e6-55c48dfc44ac.png">
+
 6. Actions-runner-controller install (for Helm: value.yaml)
    - Kubernetes deployment
      ```
@@ -131,7 +133,7 @@ nav_order: 4
         duration: "5m"
      ```
 
-10.Org에 Webhook설정
+10. Org에 Webhook설정
    ```
    Payload URL: http://<DNS name of the load balancer in front of the controller deployed by step 6>
    Content type: application/json
