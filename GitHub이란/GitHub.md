@@ -15,7 +15,9 @@ has_children: true
 <br>
 <br>
 
-   
+  - GitHub의 [Public 로드맵](https://github.com/orgs/github/projects/4247)을 참조하세요. 
+
+
 ## 1. Version control = Git
   
 ### Version control은 필요합니다. 
@@ -105,10 +107,6 @@ has_children: true
    - [Issues 및 Pull Request](https://github.com/microsoft/vcpkg/issues/18170)
    - [Discussions](https://github.com/microsoft/vcpkg/discussions)
    - [Project](https://github.com/orgs/microsoft/projects)
-
-
-
-
 
 
 

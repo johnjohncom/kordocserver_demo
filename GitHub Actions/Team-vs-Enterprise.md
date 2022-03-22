@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GitHub Team vs GitHub Enterprise 차이
+title: GitHub Team vs GitHub Enterprise 비교
 nav_order: 2
 ---
 
@@ -9,8 +9,7 @@ nav_order: 2
 1. Team 라이센스 vs GitHub Enterprise 라이센스
   - [GitHub Pricing 페이지](https://github.com/pricing) <br>
     <img src="/assets/images/GitHub_pricing.png" width="600" height="400">
-
-
+  <br>
 
 2. 비교
 

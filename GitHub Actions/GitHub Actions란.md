@@ -29,9 +29,6 @@ has_children: true
      - GitHub.com의 'actions' org에서 제공하는 starter 입니다.
      - ci, automation, code-scanning, icon등 다양한 분야의 예제 yml들이 폴더별로 정리되어 있습니다.
 
-   - [https://github.com/orgs/actions-packages-examples](https://github.com/orgs/actions-packages-examples)
-     - 'actions-packages-examples' Org에도 매우 다양한 예제들이 존재합니다.
-
    - [https://github.com/octodemo/awesome-actions](https://github.com/octodemo/awesome-actions)
      - CI/CD외에 GitHub 자체의 각종 이벤트들을 활용한 다양한 예제들 입니다.
 
@@ -41,3 +38,6 @@ has_children: true
    - [https://github.com/octodemo/advanced-security-java](https://github.com/octodemo/advanced-security-java)
      - Code Scanning Action의 Java 예시 입니다.
 
+   - [Sample pipeline files for popular CI/CD systems](https://github.com/kllund/sample-pipeline-files)
+     - CodeQL CLI 번들과 다양한 CI/CD 시스템들과의 연동을 위한 파이프라인 예제들이 존재합니다.
+     

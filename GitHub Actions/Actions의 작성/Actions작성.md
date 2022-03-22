@@ -99,7 +99,7 @@ nav_order: 1
  
  - [Actions의 종류](https://docs.github.com/en/enterprise-server@latest/actions/creating-actions/about-actions#types-of-actions)
    
-    - Actions는 Docker container와 JavaScript, 그리고 여러 명령어를 묶어 하나의 action으로 실행하는 세 가지  있습니다. 
+    - Actions는 Docker container와 JavaScript, 그리고 여러 명령어를 묶어 하나의 action으로 실행하는 세 가지 형태가 있습니다. 
     - Actions는 메타데이터 파일을 이용해 input, output 그리고 main entrypoint를 지정할 수 있습니다. 메타데이터 파일의 이름은 `action.yml` 또는 `action.yaml` 이어야 합니다. 
     
        Type |	Operating system
