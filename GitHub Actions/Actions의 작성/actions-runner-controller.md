@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Autoscaling Self-hosted runner:쿠버네티스기반 콘트롤러
+title: Autoscaling Self-hosted runner의 쿠버네티스기반 콘트롤러
 parent: Self Hosted Runner의 Autoscaling방법
 grand_parent: Action 러너
 nav_order: 1
