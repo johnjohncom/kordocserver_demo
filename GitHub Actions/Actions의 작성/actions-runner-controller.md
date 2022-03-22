@@ -125,7 +125,7 @@ nav_order: 4
 
 9. [Horizontal Scale 설정](https://github.com/actions-runner-controller/actions-runner-controller#webhook-driven-scaling)
 
-   - `HorizontalRunnerAutoscaler` 의 hra.yaml파일 예제
+    - `HorizontalRunnerAutoscaler` 의 hra.yaml파일 예제
 
      ```
      kind: HorizontalRunnerAutoscaler
