@@ -27,11 +27,9 @@ nav_order: 6
      
      - 과도한 Actions의 실행으로 메모리와 CPU 용량의 한도가 되었을 경우, (러너들이 idle한 것들이 있다해도) job들이 시작되지 않고 UI상에서 아무 변화가 없는 경우가 생길 수 있습니다. 
      
-     1. [관리 콘솔에서 CPU와 메모리 사용량 확인](https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/accessing-the-monitor-dashboard) 
-        
-       - Overall system health의 CPU와 메모리 사용량에 따라 [CPU, 메모리 용량 증설](https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/increasing-cpu-or-memory-resources) 고려 
+     1. [관리 콘솔에서 CPU와 메모리 사용량 확인](https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/accessing-the-monitor-dashboard)    
+        - Overall system health의 CPU와 메모리 사용량에 따라 [CPU, 메모리 용량 증설](https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/increasing-cpu-or-memory-resources) 고려 
      
-
      2. 만약, CPU, 메모리 사용량에 문제가 없다면, Nomad Job 섹션에서 "CPU Percent Value"와 "Memory Usage" 그래프 확인
         - Actions와 관련된 아래 서비스들 확인
           ```
