@@ -1,1 +1,1 @@
-# doctest
+# GitHub, GitHub Enterprise Description and Help documents in Korean
