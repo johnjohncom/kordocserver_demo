@@ -33,7 +33,7 @@ nav_order: 2
     
        - 'actions' 조직의 저장소를 삭제하기 위해서는 'actions' 조직의 owner가 되어야 하며, 'actions' 조직의 owner는 default로 `actions_admin` 이라는 기본 owner가 있으나, [site admin이 추가로 owner를 지정](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/managing-access-to-actions-from-githubcom/manually-syncing-actions-from-githubcom#prerequisitesadmin)할 수 있습니다. 
    
-    - 또는 [이 곳](GitHub Actions/Actions를 GHES에서 사용하려면/Actions-on-prem/action-sync-tool.md)에서 설명되는 `Actions-sync tool`을 사용
+    - 또는 [이 곳](GitHub Actions/Actions를 GHES에서 사용하려면/Actions-on-prem/action-sync-tool.html)에서 설명되는 `Actions-sync tool`을 사용
  
  
 ### 2.[GitHub.com/Marketplace의 Action 사용을 위해 Connect 설정 허용](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect)
