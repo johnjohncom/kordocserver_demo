@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GitHub Team vs GitHub Enterprise 비교
+title: GitHub Team vs Enterprise 비교
 nav_order: 2
 ---
 
