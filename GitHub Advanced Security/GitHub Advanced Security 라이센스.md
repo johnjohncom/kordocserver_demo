@@ -9,7 +9,7 @@ nav_order: 4
 
 ## License 🧮
    
-* GitHub Enterprise외 추가 비용없음 
+* GitHub Enterprise에 포함되있는 기능들 (별도 라이센스 필요 없음)
    - Dependency Graph
    - Dependabot Alert
    - Dependabot Security Update
