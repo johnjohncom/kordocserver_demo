@@ -18,5 +18,5 @@ parent: GitHub이란
 ### GitHub Enterprise Server 트라이얼
    - 45일, unlimited seat 🧑‍🤝‍🧑 
    - Admin 하실 분이 [Trial request](https://enterprise.github.com/trial) 
-   - 이메일로 라이센스, GHES 설치하고 라이센스 적용
+   - 트라이얼 신청하신 Admin의 이메일로 라이센스 다운받으실 수 있는 링크 초대 전송, GHES 설치하고 라이센스 적용
   
