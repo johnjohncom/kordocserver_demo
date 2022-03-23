@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Actions 이중화, 백업
+title: 외부 S3 스토리지 이중화, 백업
 parent: Actions의 GHES설정
 grand_parent: GitHub Actions란
 nav_order: 4
 ---
 
 
-## Actions 이중화, 백업
+## 외부 S3스토리지 이중화, 백업
 
 ### [GitHub Actions 이중화](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/advanced-configuration-and-troubleshooting/high-availability-for-github-actions)   
    
