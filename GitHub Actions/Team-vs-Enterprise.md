@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitHub Team vs Enterprise 비교
-nav_order: 2
+nav_order: 3
 ---
 
 ## Team vs. Enterprise
