@@ -76,7 +76,7 @@ has_children: true
 
 ## 3. GHES Actions 을 위한 구성요소 설명 🤖
 
-### [Actions Runner 설명](/GitHub%20Actions/Actions의%20작성/runner_explain.md) 🏃
+### [Actions Runner 설명](/GitHub%20Actions/Actions의%20작성/runner_explain.html) 🏃
 ### [Minio Gateway for NAS Storage](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-minio-gateway-for-nas-storage) 🧺
  
    - Minio NAS Gateway는 [Docker를 이용해 쉽게 구성](https://docs.min.io/docs/minio-gateway-for-nas.html)이 가능합니다. 
