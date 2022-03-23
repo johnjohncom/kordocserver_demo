@@ -19,7 +19,7 @@ nav_order: 5
      - Trial하실 Enterprise Account name 이름을 보내주시면, :octocat:이 enable
      - 50 committer (만약 추가 필요하시면 Contact GitHub)
    - 사용중이 아니시면
-     - 신규 Org생성, Org이름 보내주시면, :octocat:이 GitHub Enterprise Cloud Trial + GHAS Trial enable
+     - 신규 Org생성하고, Org이름 보내주시면, GitHub이 GitHub Enterprise Cloud Trial + GHAS Trial 두 가지를 모두 활성화하고 알려드립니다.
      - 50 seat/committer (만약 추가 필요하시면 GitHub에 contact)
    
 * GitHub Enterprise Server에서 Trial
