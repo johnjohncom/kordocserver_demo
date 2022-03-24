@@ -10,7 +10,7 @@ has_children: true
   - GitHub Enterprise는 **GitHub.com 클라우드상**에 Enterprise 기업 고객을 위한 특별한 관리 페이지를 제공합니다.
   - **Enterprise Account**란, GitHub.com 클라우드 상에서 엔터프라이즈의 전체 조직을 관리할 수 있는 최상위 계위의 개체 입니다. 
 
-                   Enterprise
+             Enterprise Account
                        |
          OrgA ----- Org B --- Org C --- Org D....
           |           |         |         |
