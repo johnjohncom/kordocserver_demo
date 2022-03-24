@@ -8,7 +8,8 @@ has_children: true
 
 ## Enterprise Account 
   - GitHub Enterprise는 **GitHub.com 클라우드상**에 Enterprise 기업 고객을 위한 특별한 관리 페이지를 제공합니다.
-  - **Enterprise Account**란, GitHub.com 클라우드 상에서 엔터프라이즈의 전체 조직을 관리할 수 있는 최상위 계위의 개체 입니다. 
+  - **Enterprise Account**란, GitHub.com 클라우드 상에서 엔터프라이즈에 속한 전체 조직을 관리할 수 있는 최상위 계위의 개체 입니다. 
+  - Enterprise Account레벨에서 설정한 내용은 하위 Org들에 한꺼번에 적용됩니다.
 
              Enterprise Account
                        |
@@ -37,7 +38,7 @@ has_children: true
      - Enterprise Cloud의 기타 정책 설정
 
 ## Enterprise Account 페이지 접근 (두가지 방법)
-  - https://www.github.com/enterprises/[엔터프라이즈 이름]
+  - `https://www.github.com/enterprises/[엔터프라이즈 이름]`
   - 또는, Admin 계정의 GitHub.com내 사용자 사진 프로파일 클릭 후, ‘Your Enterprise’ 메뉴
     <img src>
 
