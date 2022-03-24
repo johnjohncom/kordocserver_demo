@@ -13,6 +13,7 @@ has_children: true
                    Enterprise
                        |
          OrgA ----- Org B --- Org C --- Org D....
+          |           |         |         |
         repoA1      repoB1    repoC1    repoD1
         repoA2      repoB2    repoC2    repoD2
          ...         ...       ...       ...
