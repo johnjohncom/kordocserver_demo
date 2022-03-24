@@ -8,7 +8,7 @@ parent: GitHub이란
 
 
 
-## GitHub.com = GitHub Enterprise + more
+## GitHub Enterprise  = GitHub.com + more
 
 
 ### 글로벌 GitHub.com의 서비스 플랫폼의 안정성, 확장성, 성능이 그대로 엔터프라이즈에 적용됩니다. 
