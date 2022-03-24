@@ -18,7 +18,7 @@ has_children: true
         repoA2      repoB2    repoC2    repoD2
          ...         ...       ...       ...
 
-  - 이 페이지는 GitHub.com상의 각 기업 고객의 관리자(Owner)만 접속할 수 있는 Unique한 URL로 제공됩니다 : www.github.com/enterprises/[Enterprise account name]
+  - 이 페이지는 GitHub.com상의 각 기업 고객의 관리자(Owner)만 접속할 수 있는 Unique한 URL로 제공됩니다 : `www.github.com/enterprises/[Enterprise account name]`
   - 각 기업의 관리자는 Enterprise Account Owner라고 불립니다.
   - Enterprise Account owner는 GitHub Enterprise Cloud의 Organization(조직)의 admin과는 다릅니다. GitHub Enterprise는 클라우드에 여러개의 Organization을 만들 수 있고, 이 Organization들을 전체적으로 묶어서 관리할 수 있는 ‘상위' 개념이 Enterprise Account 입니다.
   - GitHub Enterprise를 온프렘에 설치형(GHES: GitHub Enterprise Server)으로 사용하시는 기업도, 이 Enterprise Account 페이지에서 라이센스 파일 다운로드,전체 인스턴스들의 라이센스 사용량 관리, 기술지원 티켓 생성 등의 작업이 이루어 집니다.
@@ -30,11 +30,11 @@ has_children: true
 
 ## [Enterprise Account 페이지](https://docs.github.com/en/enterprise-cloud@latest/github/setting-up-and-managing-your-enterprise/about-enterprise-accounts)
   -  Enterprise Account는 GitHub Enterprise를 사용하시는 기업 고객의 Admin이 GitHub Enterprise의 전반적인 관리를 위해 제공되는 통합 view 입니다.
-    ○ 라이센스 및 사용량/추가 사용비용 관리 (온프렘 GHES인스턴스의 라이센스 사용량포함)
-    ○ Enterprise Cloud의 사용자(member) 관리
-    ○ Enterprise Cloud의 조직(Organization) 관리
-    ○ Enterprise Cloud의 SAML 인증 설정
-    ○ Enterprise Cloud의 기타 정책 설정
+     - 라이센스 및 사용량/추가 사용비용 관리 (온프렘 GHES인스턴스의 라이센스 사용량포함)
+     - Enterprise Cloud의 사용자(member) 관리
+     - Enterprise Cloud의 조직(Organization) 관리
+     - Enterprise Cloud의 SAML 인증 설정
+     - Enterprise Cloud의 기타 정책 설정
 
 ## Enterprise Account 페이지 접근 (두가지 방법)
   - https://www.github.com/enterprises/[엔터프라이즈 이름]
