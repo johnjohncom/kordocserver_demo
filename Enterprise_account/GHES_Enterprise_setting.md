@@ -39,7 +39,7 @@ parent: GitHub Enterprise Account란
   - 다만, 온프렘에 설치된 인스턴스가 회사 정책으로 외부 인터넷이 아예 단절되어야 하는 경우에 [수동으로 가져와 사용할 수 있는 방법](/GitHub%EC%9D%B4%EB%9E%80/Actions를 GHES에서 사용하려면/Actions-on-prem/action-sync-tool.md)을 제공합니다.
 
 ## GitHub Enterprise LICENSE 파일 다운로드
-  - 최초 GitHub Enterprise계약시, 또는 라이센스 갱신시에 온프렘 인스턴스에 사용할 라이센스 파일을 다운로드할 수 있는 곳은, [Enterprise Account 페이지](/Enterprise_account/Enterprise_account.md)에 존재합니다.
+  - 최초 GitHub Enterprise계약시, 또는 라이센스 갱신시에 온프렘 인스턴스에 사용할 라이센스 파일을 다운로드할 수 있는 곳은, [Enterprise Account 페이지](/Enterprise_account/Enterprise_account.html)에 존재합니다.
   - 계약이나, 갱신시에 이 메뉴에 들어가면 새로 업데이트된 라이센스가 파일로 존재하며 이것을 다운로드 받아, 온프렘에 설치된 GitHub Enterprise Server 인스턴스에 업로드 해 주시면 됩니다.
   - [라이센스 파일의 다운로드](https://docs.github.com/en/enterprise-server@latest/billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise)는 Enterprise Account 페이지 > Settings > Enterprise licensing 메뉴 입니다.
   - 여기에서 파일을 받아, 온프렘에 설치된 인스턴스의 Enterprise Settings 메뉴 > Settings > [License 메뉴에 업로드](https://docs.github.com/en/enterprise-server@latest/billing/managing-your-license-for-github-enterprise/uploading-a-new-license-to-github-enterprise-server) 하면 됩니다.
