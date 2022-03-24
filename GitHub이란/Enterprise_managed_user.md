@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Enterprise Managed User(EMU)
+title: Enterprise Managed User(EMU)서비스 란
 nav_order: 3
 parent: GitHub이란
 ---
@@ -13,7 +13,7 @@ parent: GitHub이란
   - 사용자의 계정을 각 엔터프라이즈가 직접 관리하며, 조직 레벨이나 사용자계정 모두 **퍼블릭 저장소를 사용할 수 없어** 기존 GHEC에 비해 매우 독립적인 환경을 제공해 주는 GitHub Enterprise Cloud서비스 입니다.
   - EMU에 속한 사용자 계정은 **오직** 자신이 속한 EMU Org의 Private 저장소, 또는 본인의 사용자 계정의 Private 저장소에서만 활동할 수 있습니다. (퍼블릭 저장소 생성 불가)
   - EMU에 속한 조직과 사용자 계정은 외부 GitHub.com에는 전혀 노출되지 않습니다. 
-  - 현재 지원되는 IdP는 Azure AD와 Okta의 두 가지가 있습니다. EMU를 사용하기 원하는 엔터프라이즈는 이 두가지 중 하나의 IdP를 사용하여야 합니다. 
+  - 현재 지원되는 IdP는 **Azure AD와 Okta**의 두 가지가 있습니다. EMU를 사용하기 원하는 엔터프라이즈는 이 두가지 중 하나의 IdP를 사용하여야 합니다. 
   - EMU서비스는 반드시 GitHub Sales에 문의하셔야 구매가 가능합니다. (GitHub.com의 웹사이트를 통해 직접 구매 및 결제는 불가합니다.)
   
 ### [EMU의 특징](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users#abilities-and-restrictions-of-managed-users) 
@@ -24,7 +24,7 @@ parent: GitHub이란
   - 사용자 레벨의 OAuth App과 GitHub App을 추가할 수 없습니다. 
   
 ### [Short Code와 Username](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users#usernames-and-profile-information)
-  - EMU서비스를 위해 클라우드 상에서 EMU만의 고유한 Name space를 구분짓는 **Short Code**가 엔터프라이즈마다 고유하게 생성됩니다. Short code는 처음 생성되면 수정이나 변경이 불가능하므로 처음 생성시에 신중하게 선택하셔야 합니다. Short code는 외부에 노출되는 정보는 아니며, 단지 GitHub.com 클라우드 내부에서 각 EMU의 엔터프라이즈를 고유하게 구별지어 주는 Name Space입니다.
+  - EMU서비스를 위해 클라우드 상에서 EMU만의 고유한 Name space를 구분짓는 **Short Code**가 엔터프라이즈마다 고유하게 생성됩니다. Short code는 처음 생성되면 **수정이나 변경이 불가능**하므로 처음 생성시에 신중하게 선택하셔야 합니다. Short code는 외부에 노출되는 정보는 아니며, 단지 GitHub.com 클라우드 내부에서 각 EMU의 엔터프라이즈를 고유하게 구별지어 주는 Name Space입니다.
   - Short code는 3-8자리 alphanumeric string입니다.
   - EMU 사용자계정의 이름 뒤에 Short code가 suffix로 붙습니다. 
     **@IDP-USERNAME_SHORT-CODE** 
