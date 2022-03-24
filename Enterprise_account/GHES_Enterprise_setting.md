@@ -19,7 +19,7 @@ parent: GitHub Enterprise Account란
 ## GitHub Connect 설정
   - Enterprise Settings 페이지 왼편의 GitHub Connect 메뉴 Connect를 활성화는 Enterprise Account 페이지의 Owner 권한이 있어야 가능합니다.
   - Connect 기능을 통해 아래 기능들의 활성화가 가능합니다.
-     - [라이센스 통합 관리](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-automatic-user-license-sync-between-github-enterprise-server-and-github-enterprise-cloud)
+     - [라이센스 통합 관리-자동으로 동기](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-automatic-user-license-sync-between-github-enterprise-server-and-github-enterprise-cloud)
      - GitHub.com의 Actions의 사용
      - [의존성의 보안취약점에 대한 알람 활성화](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-the-dependency-graph-and-dependabot-alerts-on-your-enterprise-account)
      - [사용자들이 GitHub내에서 검색 시, GitHub.com의 검색결과도 함께 표시](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-unified-search-between-your-enterprise-account-and-githubcom)
@@ -39,7 +39,7 @@ parent: GitHub Enterprise Account란
   - 다만, 온프렘에 설치된 인스턴스가 회사 정책으로 외부 인터넷이 아예 단절되어야 하는 경우에 [수동으로 가져와 사용할 수 있는 방법](/GitHub%EC%9D%B4%EB%9E%80/Actions를 GHES에서 사용하려면/Actions-on-prem/action-sync-tool.md)을 제공합니다.
 
 ## GitHub Enterprise LICENSE 파일 다운로드
-  - 최초 GitHub Enterprise계약시, 또는 라이센스 갱신시에 온프렘 인스턴스에 사용할 라이센스 파일을 다운로드할 수 있는 곳은, 위 [1]에서 설명한 Enterprise Account 페이지에 존재합니다.
+  - 최초 GitHub Enterprise계약시, 또는 라이센스 갱신시에 온프렘 인스턴스에 사용할 라이센스 파일을 다운로드할 수 있는 곳은, [Enterprise Account 페이지](/Enterprise_account/Enterprise_account.md)에 존재합니다.
   - 계약이나, 갱신시에 이 메뉴에 들어가면 새로 업데이트된 라이센스가 파일로 존재하며 이것을 다운로드 받아, 온프렘에 설치된 GitHub Enterprise Server 인스턴스에 업로드 해 주시면 됩니다.
   - [라이센스 파일의 다운로드](https://docs.github.com/en/enterprise-server@latest/billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise)는 Enterprise Account 페이지 > Settings > Enterprise licensing 메뉴 입니다.
   - 여기에서 파일을 받아, 온프렘에 설치된 인스턴스의 Enterprise Settings 메뉴 > Settings > [License 메뉴에 업로드](https://docs.github.com/en/enterprise-server@latest/billing/managing-your-license-for-github-enterprise/uploading-a-new-license-to-github-enterprise-server) 하면 됩니다.
