@@ -20,11 +20,11 @@ parent: GitHub Enterprise Account란
   - Enterprise 레벨에서의 설정은, Enterprise 하위에 존재하는 모든 Org에 한꺼번에 적용됩니다. 
 
   - [저장소 권한 관련설정](https://docs.github.com/en/enterprise-cloud@latest/github/setting-up-and-managing-your-enterprise/enforcing-repository-management-policies-in-your-enterprise-account)
-    ○ Default 권한(Admin/Write/Read/No policy)
-    ○ 저장소 생성권한 (Public/Private/Internal)
-    ○ 저장소 포킹권한 (Private/Internal 저장소에 대한)
-    ○ 저장소에 outside collaborator 추가 권한
-    ○ 저장소 설정변경 권한 등
+     - Default 권한(Admin/Write/Read/No policy)
+     - 저장소 생성권한 (Public/Private/Internal)
+     - 저장소 포킹권한 (Private/Internal 저장소에 대한)
+     - 저장소에 outside collaborator 추가 권한
+     - 저장소 설정변경 권한 등
   - [Project 설정](https://docs.github.com/en/enterprise-cloud@latest/github/setting-up-and-managing-your-enterprise/enforcing-project-board-policies-in-your-enterprise-account)
   - [Security 세팅](https://docs.github.com/en/enterprise-cloud@latest/github/setting-up-and-managing-your-enterprise/enforcing-security-settings-in-your-enterprise-account)
   - [GitHub Actions 관련 정책 설정](https://docs.github.com/en/enterprise-cloud@latest/github/setting-up-and-managing-your-enterprise/enforcing-github-actions-policies-in-your-enterprise-account)
