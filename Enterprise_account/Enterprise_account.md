@@ -44,9 +44,9 @@ has_children: true
 
 ## [Enterprise내 3가지 역할](https://docs.github.com/en/enterprise-cloud@latest/github/setting-up-and-managing-your-enterprise/roles-in-an-enterprise)
   - GitHub Enterprise내에는 아래와 같은 3가지, 서로 다른 권한을 가진 역할이 있습니다.
-  - GitHub Administrator : Enterprise Account페이지에 접근하여 GitHub Enteprise를 관리할 수 있습니다.
+  - Enterprise Owner : Enterprise Account페이지에 접근하여 GitHub Enteprise를 관리할 수 있습니다.
   - Billing Manager : Billing 관련 페이지에 접근할 수 있으며 Billing 관련 관리를 수행합니다.
-  - Member : 일반 사용자
+  - Enterprise Member : 일반 사용자, Enterprise에 속한 Org들 중, 어느 하나의 Org 또는 다수의 Org에 소속된 사용자
 
-## [Enterprise Administrator 추가하기](https://docs.github.com/en/enterprise-cloud@latest/github/setting-up-and-managing-your-enterprise/inviting-people-to-manage-your-enterprise)
+## [Enterprise Owner 추가하기](https://docs.github.com/en/enterprise-cloud@latest/github/setting-up-and-managing-your-enterprise/inviting-people-to-manage-your-enterprise)
   - 처음 계약 시 GitHub에 의해 설정된 Admin은 추가로 Administrator를 추가할 수 있습니다.
