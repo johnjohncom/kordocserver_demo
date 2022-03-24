@@ -7,7 +7,7 @@ parent: GitHub Enterprise Account란
 
 ## 온프렘 GHES의 Enterprise Settings페이지
   - 온프렘에 설치형으로 GitHub Enterprise Server를 사용하는 경우, 해당 인스턴스를 관리해 주는 Enterprise Settings 페이지가 존재합니다.
-  - GitHub.com 클라우드에 Enterprise Account 페이지와 유사한 설정 및 전체 엔터프라이즈 레벨에서 하위 Org들을 한꺼번에 관리하고, 정책 설정 및 라이센스, 사용량 등을 관리하기위한 Admin 페이지 입니다. 
+  - GitHub.com 클라우드에 Enterprise Account 페이지와 유사하게 해당 온프렘 인스턴스의 전체 엔터프라이즈 레벨에서 하위 Org들을 한꺼번에 관리하고, 정책 설정 및 라이센스, 사용량 등을 관리하기위한 Admin 페이지 입니다. 
   - 이 페이지는 온프렘에 설치된 **각각의 인스턴스에만 존재**하는 것이므로, GitHub.com의 Enterprise Account 페이지와는 관계 없습니다.
   - 다만, 이 페이지에서 ‘GitHub Connect’를 설정 하여, 위에서 설명된 Enterprise Account 페이지에 ‘connect'을 구성할 수 있습니다. 이렇게 하면, 라이센스 통합관리, 의존성 보안 취약성 알람 활성화, GitHub.com의 Actions들의 사용등 다양한 편리 기능이 있습니다. 자세한 설명은 아래 2항에서 설명합니다.
   - 온프렘 GHES 인스턴스의 Site Admin이 이 페이지에 접근 가능합니다.
