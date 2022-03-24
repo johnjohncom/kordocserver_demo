@@ -19,11 +19,11 @@ parent: GitHub Enterprise Account란
 ## GitHub Connect 설정
   - Enterprise Settings 페이지 왼편의 GitHub Connect 메뉴 Connect를 활성화는 Enterprise Account 페이지의 Owner 권한이 있어야 가능합니다.
   - Connect 기능을 통해 아래 기능들의 활성화가 가능합니다.
-    ○ [라이센스 통합 관리](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-automatic-user-license-sync-between-github-enterprise-server-and-github-enterprise-cloud)
-    ○ GitHub.com의 Actions의 사용
-    ○ [의존성의 보안취약점에 대한 알람 활성화](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-the-dependency-graph-and-dependabot-alerts-on-your-enterprise-account)
-    ○ [사용자들이 GitHub내에서 검색 시, GitHub.com의 검색결과도 함께 표시](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-unified-search-between-your-enterprise-account-and-githubcom)
-    ○ [사용자들이 온프렘에서의 contribution 횟수만 GitHub.com의 개인 프로필에 반영](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-unified-contributions-between-your-enterprise-account-and-githubcom)
+     - [라이센스 통합 관리](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-automatic-user-license-sync-between-github-enterprise-server-and-github-enterprise-cloud)
+     - GitHub.com의 Actions의 사용
+     - [의존성의 보안취약점에 대한 알람 활성화](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-the-dependency-graph-and-dependabot-alerts-on-your-enterprise-account)
+     - [사용자들이 GitHub내에서 검색 시, GitHub.com의 검색결과도 함께 표시](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-unified-search-between-your-enterprise-account-and-githubcom)
+     - [사용자들이 온프렘에서의 contribution 횟수만 GitHub.com의 개인 프로필에 반영](https://docs.github.com/en/enterprise-server@latest/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-unified-contributions-between-your-enterprise-account-and-githubcom)
 
 ## 라이센스 통합관리
   - GitHub Enterprise 라이센스는 클라우드(GitHub Enterprise Cloud서비스)와 온프렘 인스턴스를 동시에 사용할 수 있고, 온프렘에도 여러개의 인스턴스를 설치할 수 있습니다.
