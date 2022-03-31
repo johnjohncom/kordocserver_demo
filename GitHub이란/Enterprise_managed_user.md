@@ -21,7 +21,7 @@ parent: GitHub이란
   - 사용자는 GitHub.com의 퍼블릭 저장소에 대해 '쓰기' 권한이 없습니다. (읽기는 가능)
   - Public 저장소를 EMU조직으로 Fork할 수 없습니다.
   - Outside collaborator를 특정 저장소에 초대할 수 없습니다. 
-  - 사용자 레벨의 OAuth App과 GitHub App을 추가할 수 없습니다. 
+  - 사용자 계정에 GitHub App을 추가할 수 없습니다. 
   
 ### [Short Code와 Username](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users#usernames-and-profile-information)
   - EMU서비스를 위해 클라우드 상에서 EMU만의 고유한 Name space를 구분짓는 **Short Code**가 엔터프라이즈마다 고유하게 생성됩니다. Short code는 처음 생성되면 **수정이나 변경이 불가능**하므로 처음 생성시에 신중하게 선택하셔야 합니다. Short code는 외부에 노출되는 정보는 아니며, 단지 GitHub.com 클라우드 내부에서 각 EMU의 엔터프라이즈를 고유하게 구별지어 주는 Name Space입니다.
