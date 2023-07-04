@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 02. Enterprise Managed User(EMU)서비스 란
+title: 02. Enterprise Managed User(EMU)서비스
 nav_order: 3
 ---
 
@@ -47,4 +47,4 @@ nav_order: 3
 ### EMU 트라이얼
    - EMU의 트라이얼을 위해서는 GitHub Sales에 연락하시면 정해진 기간만큼 Trial을 위해 EMU조직을 생성하여, Admin하실 분을 초대해 드립니다. 
    - EMU의 Short code는 Unique하게 설정되고, 이후 변경이 불가하므로 초기 Trial시에 이점 유의하셔서 신중하게 Short code를 설정하시기 바랍니다. 
-    
+   
