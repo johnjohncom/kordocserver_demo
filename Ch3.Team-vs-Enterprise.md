@@ -8,7 +8,7 @@ nav_order: 4
 
 1. Team 라이센스 vs GitHub Enterprise 라이센스
   - [GitHub Pricing 페이지](https://github.com/pricing) <br>
-    <img src="/assets/images/GitHub_pricing.png" width="600" height="400">
+    <img src="./assets/images/ghe-pricing.png" width="800" height="400">
   <br>
 
 2. 비교
