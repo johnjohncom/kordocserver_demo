@@ -15,7 +15,7 @@ has_children: true
 - GitHub Copilot은 '개인용'과 '기업용'라이센스가 있습니다. 
 - 개인용은 각 개인이 GitHub.com의 개인 계정에서 구매할 수 있습니다. 
 - 기업용은 엔터프라이즈 기업욜 위한 '보안'이 강화되어 있습니다. ([Copilot for Business의 보안](./02.cfb-security.md)참조)
-- Copilot은 기본적으로 _월별 사용량 기반으로 결제_되는 구조 입니다. 
+- Copilot은 기본적으로 __월별 사용량 기반으로 결제__ 되는 구조 입니다. 
     - '사용량'은 Copilot을 사용하도록 할당된 '개발자 수' 입니다. 
     - Copilot for Business의 라이센스 사용량 확인은 [GitHub Enterprise에서 Copilot for Business시작하기](./01.GHE-start-cfb.md)참조
 
@@ -34,4 +34,4 @@ has_children: true
 ![image](../assets/images/Copilot-codeacceptance.webp)
 
 
-#### [* 링크: Copilot Specific Terms](https://github.com/customer-terms/github-copilot-product-specific-terms)
+### [* 링크: Copilot Specific Terms](https://github.com/customer-terms/github-copilot-product-specific-terms)
