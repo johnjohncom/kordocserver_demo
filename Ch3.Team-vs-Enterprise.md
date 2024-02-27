@@ -15,6 +15,7 @@ nav_order: 4
 
   항목 | Team라이센스 | GitHub Enterprise라이센스 | 비고
   --|--|--|--
+  Organization갯수 | 1개 | 제한 없음 |
   [SAML SSO](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on)로그인 | 미지원 | 지원
   [Azure AD/Okta와 Team sync](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization) | 미지원 | 지원
   [LDAP](https://docs.github.com/en/enterprise-server@latest/admin/identity-and-access-management/using-ldap-for-enterprise-iam/using-ldap) | 미지원 | 지원 | GitHub Enterprise Server기능
