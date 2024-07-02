@@ -19,4 +19,6 @@ parent: 01. GitHub이란
    - 45일, unlimited seat 🧑‍🤝‍🧑 
    - Admin 하실 분이 [Trial request](https://enterprise.github.com/trial) 
    - 트라이얼 신청하신 Admin의 이메일로 라이센스 다운받으실 수 있는 링크 초대 전송, GHES 설치하고 라이센스 적용
+   - [GHES 이미지 다운로드](https://enterprise.github.com/releases) (VMware, Hyper-V, Azure, AWS, GCP 등 다양한 환경 지원)
+   - [GHES 설치 가이드](https://docs.github.com/en/enterprise-server@latest/admin/installation)
   

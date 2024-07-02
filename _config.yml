@@ -4,6 +4,13 @@ description: GitHub, GitHub Enterprise
 
 logo: "/assets/images/original.png"
 
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon-16x16.png"
+
+# Enable or disable the side/mobile menu globally
+# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+nav_enabled: true
+
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
