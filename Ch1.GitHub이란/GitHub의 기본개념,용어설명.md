@@ -72,7 +72,7 @@ parent: 01. GitHub이란
       </tr>
       <tr>
          <td>저장소</td>
-         <td>GitHub.com 저장소 사용</td>
+         <td>GitHub Enterprise Cloud 저장소 사용</td>
          <td>온프렘 저장소 사용</td>
       </tr>
    </table>
@@ -119,6 +119,8 @@ parent: 01. GitHub이란
 - GitHub Enterprise **Cloud** (GHEC)의 사용자 계정은 아래 테이블과 같이 'GitHub.com상의 개인 계정'을 초대하여 사용하는 경우와, '기업의 인증서버(IdP)에 존재하는 사용자 계정'을 직접 사용하는 경우로 나뉩니다.
 - Enterprise Managed User서비스는, GitHub.com의 '개인계정'이 **아닌**, 기업의 인증서버에 존재하는 계정을 직접 사용하는 형태의 GitHub Enterprise Cloud 서비스 입니다. ([설명 문서](../Ch3.EMU/Enterprise_managed_user.md) 참조)
 
+![image](./img/GHEC-EMU-account.png)
+
 <table>
    <tr>
       <th>사용자 계정</th>
@@ -146,6 +148,11 @@ parent: 01. GitHub이란
       <td><a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users#partner-identity-providers">Azure AD, Okta, PingFederate</a></td>
    </tr>
 </table>
+
+<br>
+
+### GitHub Enterprise Cloud의 '멤버'는 어떻게 구성되나요?
+
 
 <br>
 
