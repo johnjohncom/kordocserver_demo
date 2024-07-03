@@ -8,10 +8,45 @@ parent: 01. GitHub이란
 
 ## GitHub 라이센스, Copilot 구매방법
 
-| GitHub 제품 | 세부 라이센스 | 라이센스 형태 | 구매방법 | 특징
-|:---:|:---:|:---:|:---:|:---:|
-| GitHub Enterprise | GitHub Enterprise | 연단위 계약 | GitHub Sales와 연락 |
-| GitHub Copilot 기업용 | Copilot Business <br> Copilot Enterprise <br> Copilot Standalone | 월별 사용량 기반 <br> 월별 사용량 기반 <br> 월별 사용량 기반  | Azure 구독 ID로 월별 자동 결재  <br> Azure 구독 ID로 월별 자동 결재 <br> Azure 구독 ID로 월별 자동 결재 (must) | GitHub Enterprise라이센스 구매는 옵션 <br> GitHub Enterprise 라이센스 반드시 구매필요 <br> GitHub Enterprise 라이센스 없음 |
+<table>
+   <thead>
+      <tr>
+         <th>GitHub 제품</th>
+         <th>세부 라이센스</th>
+         <th>라이센스 형태</th>
+         <th>구매방법</th>
+         <th style="width: 20%">특징</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+             <td>GitHub Enterprise</td>
+             <td>GitHub Enterprise</td>
+             <td>연단위 계약</td>
+             <td>GitHub Sales와 연락</td>
+             <td></td>
+           </tr>
+           <tr>
+             <td rowspan="3">GitHub Copilot 기업용</td>
+             <td>Copilot Business</td>
+             <td>월별 사용량 기반</td>
+             <td>Azure 구독 ID로 월별 자동 결재</td>
+             <td>GitHub Enterprise라이센스 구매는 옵션</td>
+           </tr>
+           <tr>
+             <td>Copilot Enterprise</td>
+             <td>월별 사용량 기반</td>
+             <td>Azure 구독 ID로 월별 자동 결재 </td>
+             <td>GitHub Enterprise 라이센스 반드시 구매필요(must)</td>
+           </tr>
+           <tr>
+             <td>Copilot Standalone</td>
+             <td>월별 사용량 기반</td>
+             <td>Azure 구독 ID로 월별 자동 결재(must)</td>
+             <td>GitHub Enterprise 라이센스 없음</td>
+           </tr>
+   </tbody>
+</table>
 
 - GitHub Enterprise는 GitHub Sales와 연락하여 연단위로 계약을 맺습니다.
 - GitHub Copilot은 Azure 구독 ID로 월별 자동 결재를 하며, 사용량 (사용하는 사람수)에 따라 요금이 부과됩니다.
@@ -28,11 +63,44 @@ parent: 01. GitHub이란
 
 - GitHub Enterprise 라이센스의 유/무에 따라, Copilot의 기업용 라이센스를 구매할 때는 아래와 같은 절차를 따릅니다.
 
-| 구매방법 | 절차 | 비고 |
-|:---:|:---:|:---:|
-| 이미 GitHub Enterprise 사용중 | 1. GitHub Enterprise관리자 메뉴에서 Azure 구독 ID등록     <br> 2. 관리자 메뉴에서 Copilot Business 혹은 Copilot Enterprise를 활성화 <br> - Org 설정메뉴에서 사용자에게 Copilot 라이센스 할당 |  |
-| GitHub Enterprise를 함께 구매 | 1. GitHub Sales에 문의하여 GitHub Enterprise 라이센스 연단위 계약 <br> 2. GitHub Enterprise가 활성화 된 후, 위의 'GitHub Enterprise 사용중' 절차 진행 |  |
-| GitHub Enterprise는 나중에 구매 | Copilot Standalone으로 진행 | Copilot Standalone은 GitHub Enterprise 라이센스 없이 사용 가능 |
+<table>
+   <thead>
+      <tr>
+         <th>구매방법</th>
+         <th>절차</th>
+         <th style="width: 20%">비고</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td rowspan="3">이미 GitHub Enterprise 사용중</td>
+         <td>1. GitHub Enterprise관리자 메뉴에서 Azure 구독 ID등록</td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>2. 관리자 메뉴에서 Copilot Business 혹은 Copilot Enterprise를 활성화</td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>3. Org 설정메뉴에서 사용자에게 Copilot 라이센스 할당</td>
+         <td></td>
+      </tr>
+      <tr>
+         <td rowspan="2">GitHub Enterprise를 함께 구매</td>
+         <td>1. GitHub Sales에 문의하여 GitHub Enterprise 라이센스 연단위 계약</td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>2. GitHub Enterprise가 활성화 된 후, 위의 'GitHub Enterprise 사용중' 절차 진행</td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>GitHub Enterprise는 나중에 구매</td>
+         <td>Copilot Standalone으로 진행 </td>
+         <td>Copilot Standalone은 GitHub Enterprise 라이센스 없이 사용 가능</td>
+      </tr>
+   </tbody>
+</table>
 
 - Copilot Standalone은 GitHub Enterprise 라이센스 없이 Copilot Business 라이센스를 사용할 수 있는 옵션입니다. ([Copilot Standalone 설명](../Ch6.Copilot/05.CopilotStandalone.md) 참조) 
   ** Copilot Standalone은 GitHub Enterprise 라이센스가 없으므로, 'Copilot Business' 라이센스만을 구매하는 형태의 제품입니다. 향후, 'Copilot Enterprise'로 업그레이드 하려면, GitHub Enterprise 라이센스를 구매해야 합니다.

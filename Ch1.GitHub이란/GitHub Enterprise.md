@@ -51,12 +51,11 @@ parent: 01. GitHub이란
 ## GitHub Enterprise 
   
 ### GitHub.com과 GitHub Enterprise는 전세계 개발자들의 오픈소스와, 엔터프라이즈 개발자들의 Home 입니다. 
-  ![image](https://user-images.githubusercontent.com/40287191/146722382-53d8b8ff-5c33-4992-86e3-a43cffb57c7e.png)
+  ![image](./img/gh-platform.png)
  <br>
   
-### Fortune 100기업의 84%가 GitHub을 사용합니다. (GitHub [Octoverse report](https://octoverse.github.com/))
-  ![image](https://user-images.githubusercontent.com/40287191/146722501-4a54c868-c5c4-4394-a119-e021ed5f2fe6.png)
-  <br>
+### Fortune 100기업의 90%가 GitHub을 사용합니다. (GitHub [Octoverse report](https://octoverse.github.com/))
+  ![image](./img/gh-market.png)
   
 ### GitHub Enterprise는 SaaS형 서비스 (GitHub Enterprise Cloud ☁️)와 온프렘 설치형 GitHub Enterprise Server 두 가지
   ![image](https://user-images.githubusercontent.com/40287191/122533534-a47a9e00-d05c-11eb-916b-01240a371e52.png)
