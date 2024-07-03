@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 07. GitHub Copilot
-nav_order: 7
+title: 06. GitHub Copilot
+nav_order: 6
 has_children: true
 ---
 

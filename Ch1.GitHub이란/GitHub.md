@@ -12,10 +12,12 @@ has_children: true
 
 <img src="https://user-images.githubusercontent.com/40287191/120283657-60ff0080-c2f6-11eb-967c-f2a046287607.png" />
   - 여러분들만의 Octocat을 만들어 보세요: [myOctocat(myoctocat.com)](https://myoctocat.com/)
+  - [Octodex](https://octodex.github.com/)에서 다양한 Octocat을 만나보세요. 
 <br>
 <br>
 
   - GitHub의 [Public 로드맵](https://github.com/orgs/github/projects/4247)을 참조하세요. 
+  - GitHub의 공식 블로그 [The GitHub Blog](https://github.blog/)
 
 
 ## 1. Version control = Git

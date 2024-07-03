@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 06. GitHub Enterprise Account란
-nav_order: 7
+title: 02. GitHub Enterprise Account란
+nav_order: 2
 has_children: true
 ---
 

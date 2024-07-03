@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 08. GitHub 주요 블로그
-nav_order: 8
+title: 07. GitHub 주요 블로그
+nav_order: 7
 has_children: true
 ---
 

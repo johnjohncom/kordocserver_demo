@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitHub Enterprise 트라이얼을 하려면
-nav_order: 2
+nav_order: 5
 parent: 01. GitHub이란
 ---
 
