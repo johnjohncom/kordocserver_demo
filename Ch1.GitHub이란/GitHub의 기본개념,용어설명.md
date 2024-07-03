@@ -154,8 +154,7 @@ parent: 01. GitHub이란
 ### GitHub Enterprise Cloud로 초대된 '개인계정'을 Enterprise 관리자가 control할 수 있나요?
 - EMU가 '아닌', 일반 GitHub Enterprise Cloud로 초대된 '개인계정'은, '개인계정'이므로, 해당 사용자가 직접 계정을 관리하며, Enterprise 관리자는 해당 계정에 대해 Enterprise에 소속된 Organization들로의 접근 권한을 부여할 수 있습니다.
 - Enterprise의 멤버로 소속되더라도, '개인계정'은 여전히 개인의 소유이며, '개인계정' 밑에 저장소(Public 및 Private)를 생성할 수 있으며, 이것을 Enterprise관리자가 <U> 제어할 수 없습니다</U>.
-- '개인계정'은 본인이 초대받은 Enterprise Organization으로 접근할 때, 만약 SAML SSO (해당 Enterprise의 인증서버와 연동된)
-가 설정되어 있다면, 해당 인증서버로 로그인하여 접근할 수 있습니다.
+- '개인계정'은 본인이 초대받은 Enterprise Organization으로 접근할 때, 만약 SAML SSO (해당 Enterprise의 인증서버와 연동된)가 설정되어 있다면, 해당 인증서버로 로그인하여 접근할 수 있습니다.
 - EMU 서비스 내에서도 여전히 '기업계정'의 본인 계정이 있으며, 저장소를 생성할 수 있으나, **<span style="color:red"> 'Private'저장소만 생성가능</span>** 합니다.
 <br>
 
