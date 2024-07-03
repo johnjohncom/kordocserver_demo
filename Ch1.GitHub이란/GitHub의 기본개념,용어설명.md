@@ -35,42 +35,119 @@ parent: 01. GitHub이란
   - Cloud의 경우, 기존에 유료, 또는 무료로 사용하던 Organization이 있다면, 해당 Organization을 'Enterprise' 계정으로 이관할 수 있습니다.
   - 'Enterprise'는, 'Cloud'와 'Server'로 나뉩니다. 'Cloud'는 GitHub.com에서 제공하는 클라우드형 SaaS 서비스이며, 'Server'는 온프렘에서 직접 설치하여 사용하는 서버형 서비스입니다.
 
+<br>
 
 ### GitHub Enterprise - 'Cloud'와 'Server'의 차이는 무엇인가요?
    
-   | 항목 | GitHub Enterprise Cloud | GitHub Enterprise Server |
-   |:---:|:---:|:---:|
-   | 설치 | GitHub.com 클라우드상 SaaS서비스 | 기업 관리자에 의해 온프렘에서 직접 설치 | 
-   | 버전 업그레이드 | GitHub.com에서 자동 업그레이드 | 기업 관리자에 의해 [직접 업그레이드](https://docs.github.com/ko/enterprise-server@latest/admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/upgrading-github-enterprise-server) |
-   | 사용자 계정 | - GitHub.com '개인 계정을 Enterprise로 초대'하여 사용 <BR>    - 혹은 기업의 인증서버(IdP)에 존재하는 '기업의 사용자 계정'을 직접사용 (EMU서비스인 경우 ([EMU서비스란](../Ch3.EMU/Ch2.Enterprise_managed_user.md)))  | 기업의 온프렘 내부 계정 사용 (기업의 내부 인증 서버 LDAP, SAML등 연동, 혹은 GHES내부에 직접 계정 생성)  |
-   | 이중화 구성 | GitHub.com에서 자동으로 처리 | 기업 관리자에 의해 직접 구성 ([GitHub Enterprise Server의 HA구성](https://docs.github.com/ko/enterprise-server@latest/admin/monitoring-managing-and-updating-your-instance/configuring-high-availability/creating-a-high-availability-replica)) |
-   | 백업 구성 | GitHub.com에서 자동으로 처리 | 기업 관리자에 의해 직접 구성 ([GitHub Enterprise Server의 백업](https://docs.github.com/ko/enterprise-server@latest/admin/backing-up-and-restoring-your-instance/configuring-backups-on-your-instance)) |
-   | 저장소 | GitHub.com 저장소 사용 | 온프렘 저장소 사용 |
+   <table>
+      <tr>
+         <th>항목</th>
+         <th>GitHub Enterprise Cloud</th>
+         <th>GitHub Enterprise Server</th>
+      </tr>
+      <tr>
+         <td>설치</td>
+         <td>GitHub.com 클라우드상 SaaS서비스</td>
+         <td>기업 관리자에 의해 온프렘에서 직접 설치</td>
+      </tr>
+      <tr>
+         <td>버전 업그레이드</td>
+         <td>GitHub.com에서 자동 업그레이드</td>
+         <td>기업 관리자에 의해 <a href="https://docs.github.com/ko/enterprise-server@latest/admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/upgrading-github-enterprise-server">직접 업그레이드</a></td>
+      </tr>
+      <tr>
+         <td>사용자 계정</td>
+         <td>- GitHub.com '개인 계정을 Enterprise로 초대'하여 사용<br>- 혹은 기업의 인증서버(IdP)에 존재하는 '기업의 사용자 계정'을 직접사용 (EMU서비스인 경우 (<a href="../Ch3.EMU/Ch2.Enterprise_managed_user.md">EMU서비스란</a>))</td>
+         <td>기업의 온프렘 내부 계정 사용 (기업의 내부 인증 서버 LDAP, SAML등 연동, 혹은 GHES내부에 직접 계정 생성)</td>
+      </tr>
+      <tr>
+         <td>이중화 구성</td>
+         <td>GitHub.com에서 자동으로 처리</td>
+         <td>기업 관리자에 의해 직접 구성 (<a href="https://docs.github.com/ko/enterprise-server@latest/admin/monitoring-managing-and-updating-your-instance/configuring-high-availability/creating-a-high-availability-replica">GitHub Enterprise Server의 HA구성</a>)</td>
+      </tr>
+      <tr>
+         <td>백업 구성</td>
+         <td>GitHub.com에서 자동으로 처리</td>
+         <td>기업 관리자에 의해 직접 구성 (<a href="https://docs.github.com/ko/enterprise-server@latest/admin/backing-up-and-restoring-your-instance/configuring-backups-on-your-instance">GitHub Enterprise Server의 백업</a>)</td>
+      </tr>
+      <tr>
+         <td>저장소</td>
+         <td>GitHub.com 저장소 사용</td>
+         <td>온프렘 저장소 사용</td>
+      </tr>
+   </table>
 
   
+<br>
 
 ### GitHub Enterprise의 '멤버'는 어떻게 구성할 수 있나요?
 
-| 항목 | GitHub Enterprise Cloud | GitHub Enterprise Server |
-|:---:|:---:|:---:|
-| 멤버쉽 | Enterprise에 소속된 Organization들 중, 어느 하나의 Organization 또는 다수의 Organization에 소속된 사용자는 Enterprise의 멤버가 됩니다. | 온프렘 GHES에 LDAP, SAML등의 인증서버와 연동하여 사용자를 추가하거나, GHES내부에 직접 계정을 생성하여 사용합니다. |
-| 사용자 계정 | - GitHub.com '개인 계정을 Enterprise로 초대'하여 사용 <BR> - 혹은 기업의 인증서버(IdP)에 존재하는 '기업의 사용자 계정'을 직접사용 (EMU서비스인 경우)  | 기업의 온프렘 내부 계정 사용 (기업의 내부 인증 서버 LDAP, SAML등 연동, 혹은 GHES내부에 직접 계정 생성)  |
-| 멤버 구성 | - 개인계정 사용시: 'Enterprise' 하위의 'Organization'에 멤버를 초대   <br>  - EMU 사용시: Enterprise 레벨에서 기업 인증서버와 SSO 및 auto-provisioning으로 자동 구성 | 온프렘 GHES에 LDAP, SAML 인증을 통해 사용자가 로그인하거나, 관리자가 직접 계정 생성 |
-| SSO 설정 | Enterprise 레벨 또는 각 Organization 레벨에서 설정 가능 | 기업 관리자에 의해 기업 내부 인증서버(LDAP, SAML)와 연동 구성 설정
+<table>
+   <tr>
+      <th>항목</th>
+      <th>GitHub Enterprise Cloud</th>
+      <th>GitHub Enterprise Server</th>
+   </tr>
+   <tr>
+      <td>멤버쉽</td>
+      <td>Enterprise에 소속된 Organization들 중, 어느 하나의 Organization 또는 다수의 Organization에 소속된 사용자는 Enterprise의 멤버가 됩니다.</td>
+      <td>온프렘 GHES에 LDAP, SAML등의 인증서버와 연동하여 사용자를 추가하거나, GHES내부에 직접 계정을 생성하여 사용합니다.</td>
+   </tr>
+   <tr>
+      <td>사용자 계정</td>
+      <td>- GitHub.com '개인 계정을 Enterprise로 초대'하여 사용<br>- 혹은 기업의 인증서버(IdP)에 존재하는 '기업의 사용자 계정'을 직접사용 (EMU서비스인 경우)</td>
+      <td>기업의 온프렘 내부 계정 사용 (기업의 내부 인증 서버 LDAP, SAML등 연동, 혹은 GHES내부에 직접 계정 생성)</td>
+   </tr>
+   <tr>
+      <td>멤버 구성</td>
+      <td>- 개인계정 사용시: 'Enterprise' 하위의 'Organization'에 멤버를 초대<br>- EMU 사용시: Enterprise 레벨에서 기업 인증서버와 SSO 및 auto-provisioning으로 자동 구성</td>
+      <td>온프렘 GHES에 LDAP, SAML 인증을 통해 사용자가 로그인하거나, 관리자가 직접 계정 생성</td>
+   </tr>
+   <tr>
+      <td>SSO 설정</td>
+      <td>Enterprise 레벨 또는 각 Organization 레벨에서 설정 가능</td>
+      <td>기업 관리자에 의해 기업 내부 인증서버(LDAP, SAML)와 연동 구성 설정</td>
+   </tr>
+</table>
 
 
 - GitHub Enterprise Cloud와 GitHub Enterprise Server의 계정은 별개의 것으로 서로 연동되지 않으며, 각각 별도로 존재하는 계정입니다.
+
+<br>
 
 ### GitHub Enterprise Cloud의 '사용자 계정'은 어떻게 구성되나요?
 - GitHub Enterprise **Cloud** (GHEC)의 사용자 계정은 아래 테이블과 같이 'GitHub.com상의 개인 계정'을 초대하여 사용하는 경우와, '기업의 인증서버(IdP)에 존재하는 사용자 계정'을 직접 사용하는 경우로 나뉩니다.
 - Enterprise Managed User서비스는, GitHub.com의 '개인계정'이 **아닌**, 기업의 인증서버에 존재하는 계정을 직접 사용하는 형태의 GitHub Enterprise Cloud 서비스 입니다. ([설명 문서](../Ch3.EMU/Enterprise_managed_user.md) 참조)
 
-| 사용자 계정 | 일반 GHEC 서비스 | EMU(Enterprise Managed User)서비스 |
-|:---:|:---:|:---:|
-| 계정 | GitHub.com의 개인 계정을 Enterprise로 초대하여 사용 | 기업의 인증서버(IdP)에 존재하는 사용자 계정을 직접 사용 |
-| SSO 연동 | GitHub Enterprise Cloud의 [Enterprise 레벨](https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise), 혹은 [각 Organization 레벨에서 개별 설정](https://docs.github.com/ko/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/connecting-your-identity-provider-to-your-organization) 가능 | [Enterprise 레벨에서 기업의 인증서버 (IdP)와 반드시 연동 구성](https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users)해야 함 |
-| Provisioning 구성(SCIM) | [Organization 레벨에서만 설정](https://docs.github.com/ko/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/about-scim-for-organizations) 가능 |  [Enterprise 레벨에서만 구성 가능](https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users) |
-| 지원 IdP 종류 | [GitHub.com 설명페이지](https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise#supported-identity-providers) | [Azure AD, Okta, PingFederate](https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users#partner-identity-providers) |
+<table>
+   <tr>
+      <th>사용자 계정</th>
+      <th>일반 GHEC 서비스</th>
+      <th>EMU(Enterprise Managed User)서비스</th>
+   </tr>
+   <tr>
+      <td>계정</td>
+      <td>GitHub.com의 개인 계정을 Enterprise로 초대하여 사용</td>
+      <td>기업의 인증서버(IdP)에 존재하는 사용자 계정을 직접 사용</td>
+   </tr>
+   <tr>
+      <td>SSO 연동</td>
+      <td>GitHub Enterprise Cloud의 <a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise">Enterprise 레벨</a>, 혹은 <a href="https://docs.github.com/ko/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/connecting-your-identity-provider-to-your-organization">각 Organization 레벨에서 개별 설정</a> 가능</td>
+      <td><a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users">Enterprise 레벨에서 기업의 인증서버 (IdP)와 반드시 연동 구성</a>해야 함</td>
+   </tr>
+   <tr>
+      <td>Provisioning 구성(SCIM)</td>
+      <td><a href="https://docs.github.com/ko/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/about-scim-for-organizations">Organization 레벨에서만 설정</a> 가능</td>
+      <td><a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users">Enterprise 레벨에서만 구성 가능</a></td>
+   </tr>
+   <tr>
+      <td>지원 IdP 종류</td>
+      <td><a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise#supported-identity-providers">GitHub.com 설명페이지</a></td>
+      <td><a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users#partner-identity-providers">Azure AD, Okta, PingFederate</a></td>
+   </tr>
+</table>
+
+<br>
 
 ### GitHub의 'Repository' 종류는 어떤것이 있나요?
 - GitHub의 Repository 타입은 'Public', 'Private', 'Internal'로 나뉩니다.

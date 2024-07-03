@@ -19,7 +19,7 @@ parent: 01. GitHub이란
       </tr>
    </thead>
    <tbody>
-      <tr>
+           <tr>
              <td>GitHub Enterprise</td>
              <td>GitHub Enterprise</td>
              <td>연단위 계약</td>
