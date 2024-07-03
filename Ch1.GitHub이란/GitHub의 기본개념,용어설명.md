@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitHub의 기본개념, 용어설명, FAQ
-nav_order: 3
+nav_order: 2
 parent: 01. GitHub이란
 ---
 

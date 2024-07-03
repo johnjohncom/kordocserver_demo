@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitHub 라이센스, Copilot 구매방법
-nav_order: 6
+nav_order: 5
 parent: 01. GitHub이란
 ---
 

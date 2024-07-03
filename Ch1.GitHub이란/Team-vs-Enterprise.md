@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GitHub의 기본개념, 용어설명, FAQ
+title: Team 플랜 vs Enterprise 비교
 nav_order: 3
 parent: 01. GitHub이란
 ---

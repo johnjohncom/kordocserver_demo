@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitHub Enterprise
-nav_order: 4
+nav_order: 1
 parent: 01. GitHub이란
 ---
 
