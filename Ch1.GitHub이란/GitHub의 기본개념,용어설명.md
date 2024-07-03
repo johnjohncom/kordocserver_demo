@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitHub의 기본개념, 용어설명, FAQ
-nav_order: 2
+nav_order: 3
 parent: 01. GitHub이란
 ---
 
@@ -16,7 +16,7 @@ parent: 01. GitHub이란
    - 무료로 사용하는 Organization 계정은 오픈소스에서 사용하는 계정이며, 
    - 유료로 Organization을 사용하려면 'Team'라이센스, 혹은 'GitHub Enterprise'라이센스를 구매해야 합니다.
    - 무료, Team, Enterprise 라이센스에 따라 사용할 수 있는 기능이 다릅니다. 기능 비교는 [여기](https://github.com/pricing), 또는 [GitHub Help](https://docs.github.com/ko/get-started/learning-about-github/githubs-plans)에서 확인하세요.
-   - Team vs Enterprise 기능 비교 : [여기](Team-vs-Enterprise.md)
+   - Team vs Enterprise 기능 비교 : [여기](Team-vs-Enterprise.md)를 참조하세요.
 
 - 'Enterprise'계정은, GitHub의 기업용 라이센스인 'GitHub Enterprise' 라이센스를 구매하여 사용하는 계정입니다. Enterprise 계정은, 그 밑에 여러개의 'Organization'을 생성할 수 있습니다. ([Enterprise Account란](../Ch2.Enterprise_account/Enterprise_account.md))
   - 'Enterprise' 밑에는 바로 Repository를 생성할 수 없으며, 'Organization'을 생성하여 그 밑에 Repository를 생성할 수 있습니다. 
