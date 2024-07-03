@@ -134,7 +134,7 @@ parent: 01. GitHub이란
    </tr>
    <tr>
       <td>SSO 연동</td>
-      <td>GitHub Enterprise Cloud의 <a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise">Enterprise 레벨</a>, 혹은 <a href="https://docs.github.com/ko/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/connecting-your-identity-provider-to-your-organization">각 Organization 레벨에서 개별 설정</a> 가능</td>
+      <td> - SAML구성은 옵션. <br> - GitHub Enterprise Cloud의 <a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise">Enterprise 레벨</a>, 혹은 <a href="https://docs.github.com/ko/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/connecting-your-identity-provider-to-your-organization">각 Organization 레벨에서 개별 설정</a> 가능</td>
       <td><a href="https://docs.github.com/ko/enterprise-cloud@latest/admin/managing-iam/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users">Enterprise 레벨에서 기업의 인증서버 (IdP)와 반드시 연동 구성</a>해야 함</td>
    </tr>
    <tr>
