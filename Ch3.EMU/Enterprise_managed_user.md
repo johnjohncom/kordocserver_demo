@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 02. Enterprise Managed User(EMU)서비스
+title: 03. Enterprise Managed User(EMU)서비스
 nav_order: 4
 has_children: true
 ---
