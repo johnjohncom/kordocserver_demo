@@ -63,6 +63,7 @@ parent: 01. GitHub이란
 
 ### GitHub Enterprise Cloud의 '사용자 계정'은 어떻게 구성되나요?
 - GitHub Enterprise **Cloud** (GHEC)의 사용자 계정은 아래 테이블과 같이 'GitHub.com상의 개인 계정'을 초대하여 사용하는 경우와, '기업의 인증서버(IdP)에 존재하는 사용자 계정'을 직접 사용하는 경우로 나뉩니다.
+- Enterprise Managed User서비스는, GitHub.com의 '개인계정'이 **아닌**, 기업의 인증서버에 존재하는 계정을 직접 사용하는 형태의 GitHub Enterprise Cloud 서비스 입니다. ([설명 문서](../Ch3.EMU/Enterprise_managed_user.md) 참조)
 
 | 사용자 계정 | 일반 GHEC 서비스 | EMU(Enterprise Managed User)서비스 |
 |:---:|:---:|:---:|
