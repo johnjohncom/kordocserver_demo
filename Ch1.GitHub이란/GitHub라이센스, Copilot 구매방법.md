@@ -22,9 +22,16 @@ parent: 01. GitHub이란
            <tr>
              <td>GitHub Enterprise</td>
              <td>GitHub Enterprise</td>
-             <td>연단위 계약</td>
+             <td>연단위 계약 (사용자수, 사용자당 라이센스)</td>
              <td>GitHub Sales와 연락</td>
-             <td></td>
+             <td>추가 필요한 라이센스는 언제든 추가오더 가능</td>
+           </tr>
+           <tr>
+               <td>GitHub Advanced Security</td>
+               <td>GitHub Advanced Security</td>
+               <td>연단위 계약 (커미터수, 지난 90일간 커밋한 사용자수)</td>
+               <td>GitHub Sales와 연락</td>
+               <td>추가 필요한 라이센스는 언제든 추가오더 가능</td>
            </tr>
            <tr>
              <td rowspan="3">GitHub Copilot 기업용</td>
