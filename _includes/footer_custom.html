@@ -11,13 +11,13 @@
 </footer>
 
 <script>
-    // Step 1: Retrieve the last modified date
+document.addEventListener('DOMContentLoaded', (event) => {
+    // 마지막 수정 날짜를 가져옵니다.
     var lastModifiedDate = document.lastModified;
 
-    // Step 2: Replace the placeholder in the footer
-    // Assuming the placeholder is within an element with an ID 'footer'
-    var footerElement = document.getElementById('footer');
-    footerElement.innerHTML = footerElement.innerHTML.replace('$LAST_MODIFIED_DATE$', lastModifiedDate);
+    // 페이지 내의 모든 내용을 검색하여 $LAST_MODIFIED_DATE$를 찾고 대체합니다.
+    document.body.innerHTML = document.body.innerHTML.replace(/\$LAST_MODIFIED_DATE\$/g, lastModifiedDate);
+});
 </script>
 
 </body>
