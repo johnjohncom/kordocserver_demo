@@ -1,0 +1,2 @@
+copilot-cli-v1-no-audio.mp4 filter=lfs diff=lfs merge=lfs -text
+copilot-pr-summaries-v1-no-audio.mp4 filter=lfs diff=lfs merge=lfs -text

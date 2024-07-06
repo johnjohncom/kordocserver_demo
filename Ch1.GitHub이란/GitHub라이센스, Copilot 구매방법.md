@@ -102,7 +102,7 @@ parent: 01. GitHub이란
    </tbody>
 </table>
 
-- Copilot Standalone은 GitHub Enterprise 라이센스 없이 Copilot Business 라이센스를 사용할 수 있는 옵션입니다. ([Copilot Standalone 설명](../Ch6.Copilot/05.CopilotStandalone.md) 참조) 
+- Copilot Standalone은 GitHub Enterprise 라이센스 없이 Copilot Business 라이센스를 사용할 수 있는 옵션입니다. ([Copilot Standalone 설명](../Ch6.Copilot/06.CopilotStandalone.md) 참조) 
   ** Copilot Standalone은 GitHub Enterprise 라이센스가 없으므로, 'Copilot Business' 라이센스만을 구매하는 형태의 제품입니다. 향후, 'Copilot Enterprise'로 업그레이드 하려면, GitHub Enterprise 라이센스를 구매해야 합니다.
 
 ## Copilot 비용 
