@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+
+<footer id="footer">
+    <p> GitHub Enterprise의 다양한 기능설명을 위한 웹페이지입니다. </p>
+    </p>Last Modified Date: $LAST_MODIFIED_DATE$</p>
+</footer>
+
+<script>
+    // Step 1: Retrieve the last modified date
+    var lastModifiedDate = document.lastModified;
+
+    // Step 2: Replace the placeholder in the footer
+    // Assuming the placeholder is within an element with an ID 'footer'
+    var footerElement = document.getElementById('footer');
+    footerElement.innerHTML = footerElement.innerHTML.replace('$LAST_MODIFIED_DATE$', lastModifiedDate);
+</script>
+
+</body>
+</html>
