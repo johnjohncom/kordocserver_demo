@@ -75,7 +75,7 @@ parent: 01. GitHub이란
       <tr>
          <td rowspan="3">이미 GitHub Enterprise 사용중</td>
          <td>1. GitHub Enterprise관리자 메뉴에서 Azure 구독 ID등록</td>
-         <td> <a href="../Ch6.Copilot/04.GHE-start-cfb.md">설명링크</a> </td>
+         <td> <a href="../Ch6.Copilot/04.GHE-start-cfb.html">설명링크</a> </td>
       </tr>
       <tr>
          <td>2. 관리자 메뉴에서 Copilot Business 혹은 Copilot Enterprise를 활성화</td>
