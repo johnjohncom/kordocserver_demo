@@ -45,7 +45,7 @@ has_children: true
     - Copilot for Business의 라이센스 사용량 확인은 [GitHub Enterprise에서 Copilot for Business시작하기](./01.GHE-start-cfb.md)참조
 
 ## GitHub Copilot 기업용 라이센스 구매 방법 
-  - GitHub Copilot 기업용 라이센스 구매방법은 [GitHub 라이센스, Copilot 구매방법](../Ch1.GitHub이란/GitHub라이센스,%20Copilot%20구매방법.md)을 참조하세요.
+  - GitHub Copilot 기업용 라이센스 구매방법은 [GitHub 라이센스, Copilot 구매방법](../Ch1.GitHub이란/GitHub라이센스,%20Copilot%20구매방법.html)을 참조하세요.
 
   <br>
 
