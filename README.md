@@ -1,1 +1,1 @@
-# GitHub, GitHub Enterprise Description and Help documents in Korean
+# GitHub Copilot documents in Korean
