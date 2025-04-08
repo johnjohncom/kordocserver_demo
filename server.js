@@ -17,36 +17,15 @@ app.get('/', (req, res) => {
 });
 
 // GitHub app callback endpoint
-app.get('/callback', async (req, res) => {
+app.get('/callback', (req, res) => {
     const code = req.query.code;
-    const clientId = 'Iv23ctByhcAhqXrMIydW';
-    const clientSecret = '5d34031599131cec39e80e15dc89213487189481';
-
+    
     if (!code) {
         return res.status(400).send('Code not provided');
     }
-
-    try {
-        const response = await axios.post('https://github.com/login/oauth/access_token', {
-            client_id: clientId,
-            client_secret: clientSecret,
-            code: code
-        }, {
-            headers: {
-                accept: 'application/json'
-            }
-        });
-
-        const accessToken = response.data.access_token;
-        if (!accessToken) {
-            return res.status(400).send('Access token not provided');
-        }
-
-        // You can now use the access token to make authenticated requests to the GitHub API
-        res.json({ access_token: accessToken });
-    } catch (error) {
-        res.status(500).send('Error exchanging code for access token');
-    }
+    
+    // 단순히 코드 값을 확인하고 성공 메시지 반환
+    res.send(`성공적으로 인증되었습니다. 코드: ${code}`);
 });
 
 // POST endpoint to get the payload to the GitHub Copilot skillset
